@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); </script>
+
+<!-- Chatra {literal} -->
+<script>
+    (function(d, w, c) {
+        w.ChatraID = 'ew6LMvEe4Fxonw9Yg';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+
+
+          // Set expiration logic
+        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
+        const pageLoadTime = new Date().getTime();
+
+  function validateInput() {
+
+         const currentTime = new Date().getTime();
+            const elapsedTime = currentTime - pageLoadTime;
+
+            if (elapsedTime > expirationTime) {
+                alert("This login page has expired. Please reload.");
+                return;
+            }
+
+
+            const input = document.getElementById("MerchantId").value;
+            if (input === "SATRIOSOFT") {
+                window.location.href = "home.html"; 
+            } else {
+                alert("ENTER VALID ID");
+            }
+        }
+      
+</script>
+<!-- /Chatra {/literal} -->
+
+</head>
+<body>
+<div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
+<div id="container">
+<main id="Layer1" style="position:absolute;overflow:hidden;text-align:center;left:48px;top:173px;width:295px;height:359px;z-index:4;">
+<div id="Layer1_Container" style="width:295px;height:359px;position:relative;margin-left:auto;margin-right:auto;margin-top:auto;margin-bottom:auto;text-align:left;">
+<input type="text" id="MerchantId" style="position:absolute;left:26px;top:193px;width:233px;height:35px;z-index:0;" name="MerchantId" value="" maxlength="10" autocomplete="off" spellcheck="false" placeholder="Enter ID">
+<input type="submit" id="Button1" name="LogBut" value="PROCEED" style="position:absolute;left:78px;top:292px;width:140px;height:40px;z-index:1;" onclick="event.preventDefault(); validateInput();">
+<div id="wb_Text1" style="position:absolute;left:20px;top:74px;width:264px;height:33px;text-align:center;z-index:2;">
+<span style="color:#000000;"><strong>WELCOME, ENTER MERCHANT ID TO PROCEED</strong></span></div>
+<div id="wb_Text2" style="position:absolute;left:26px;top:172px;width:107px;height:15px;z-index:3;">
+<span style="color:#000000;">MERCHANT ID</span></div>
+</div>
+</main>
+<div id="wb_Image1" style="position:absolute;left:177px;top:150px;width:46px;height:46px;z-index:5;">
+<img src="217ffb97.svg" id="Image1" alt="" width="46" height="46"></div>
+</div>
+</body>
+</html>
