@@ -18,7 +18,7 @@ body
 }
 #Layer1
 {
-   background-image: linear-gradient(135deg, #DCDCDC 0%, #87CEEB 100%);
+   background: linear-gradient(to top left, #DCDCDC, rgba(220,220,220,0.00), #DCDCDC), linear-gradient(to top right, #DCDCDC, rgba(220,220,220,0.00), #DCDCDC) #87CEEB;
    border-radius: 0px;
 }
 #Layer2
@@ -109,7 +109,7 @@ body
    border-radius: 14px;
    margin: 0;
    text-align: center;
-   color: #FFFFFF;
+   color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -164,7 +164,7 @@ body
    border-radius: 14px;
    margin: 0;
    text-align: center;
-   color: #FFFFFF;
+   color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
