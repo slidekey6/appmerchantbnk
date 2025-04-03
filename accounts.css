@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(32%) sepia(75%) saturate(3894%) hue-rotate(208deg) brightness(99%) contrast(103%);
+   --colorize: invert(30%) sepia(43%) saturate(5555%) hue-rotate(211deg) brightness(101%) contrast(101%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(27%) sepia(91%) saturate(3204%) hue-rotate(212deg) brightness(101%) contrast(98%);
+   --colorize: invert(32%) sepia(95%) saturate(3882%) hue-rotate(210deg) brightness(102%) contrast(98%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -166,7 +166,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(32%) sepia(100%) saturate(1268%) hue-rotate(199deg) brightness(93%) contrast(116%);
+   --colorize: invert(29%) sepia(91%) saturate(1877%) hue-rotate(207deg) brightness(97%) contrast(105%);
 }
 .ui-state-default
 {
@@ -228,7 +228,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(44%) sepia(81%) saturate(6905%) hue-rotate(213deg) brightness(102%) contrast(99%);
+   --colorize: invert(33%) sepia(87%) saturate(3491%) hue-rotate(208deg) brightness(97%) contrast(104%);
 }
 .darktheme .ui-state-default, .darktheme .wb-theme-static
 {
@@ -1252,7 +1252,7 @@ body
 {
    text-align: left;
 }
-#Table1
+#Table2
 {
    border-radius: 0px;
    border: 0px solid #FFFFFF;
@@ -1262,20 +1262,20 @@ body
    border-spacing: 0px;
    margin: 0;
 }
-#Table1 td, #Table1 th
+#Table2 td, #Table2 th
 {
    padding: 8px 8px 8px 8px;
 }
-#Table1 td div
+#Table2 td div
 {
    white-space: nowrap;
 }
-#Table1 p, #Table1 ul
+#Table2 p, #Table2 ul
 {
    margin: 0;
    padding: 0;
 }
-#Table1 .cell0
+#Table2 .cell0
 {
    background-color: transparent;
    background-image: none;
@@ -1288,7 +1288,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell1
+#Table2 .cell1
 {
    background-color: transparent;
    background-image: none;
@@ -1301,7 +1301,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell2
+#Table2 .cell2
 {
    background-color: transparent;
    background-image: none;
@@ -1314,7 +1314,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell3
+#Table2 .cell3
 {
    background-color: transparent;
    background-image: none;
@@ -1327,7 +1327,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell4
+#Table2 .cell4
 {
    background-color: transparent;
    background-image: none;
@@ -1339,71 +1339,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell5
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 12px;
-   line-height: 13.5px;
-}
-#Table1 .cell6
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell7
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell8
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell9
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   height: 13.22%;
-   color: #3CB371;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell10
+#Table2 .cell5
 {
    background-color: transparent;
    background-image: none;
@@ -1416,7 +1352,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell11
+#Table2 .cell6
 {
    background-color: transparent;
    background-image: none;
@@ -1429,7 +1365,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell12
+#Table2 .cell7
 {
    background-color: transparent;
    background-image: none;
@@ -1442,7 +1378,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell13
+#Table2 .cell8
 {
    background-color: transparent;
    background-image: none;
@@ -1455,7 +1391,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell14
+#Table2 .cell9
 {
    background-color: transparent;
    background-image: none;
@@ -1467,7 +1403,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell15
+#Table2 .cell10
 {
    background-color: transparent;
    background-image: none;
@@ -1480,7 +1416,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell16
+#Table2 .cell11
 {
    background-color: transparent;
    background-image: none;
@@ -1493,7 +1429,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell17
+#Table2 .cell12
 {
    background-color: transparent;
    background-image: none;
@@ -1506,7 +1442,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell18
+#Table2 .cell13
 {
    background-color: transparent;
    background-image: none;
@@ -1519,7 +1455,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell19
+#Table2 .cell14
 {
    background-color: transparent;
    background-image: none;
@@ -1531,7 +1467,71 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell20
+#Table2 .cell15
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 12px;
+   line-height: 13.5px;
+}
+#Table2 .cell16
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell17
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell18
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell19
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   height: 13.22%;
+   color: #3CB371;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell20
 {
    background-color: transparent;
    background-image: none;
@@ -1544,7 +1544,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell21
+#Table2 .cell21
 {
    background-color: transparent;
    background-image: none;
@@ -1557,7 +1557,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell22
+#Table2 .cell22
 {
    background-color: transparent;
    background-image: none;
@@ -1570,7 +1570,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell23
+#Table2 .cell23
 {
    background-color: transparent;
    background-image: none;
@@ -1583,7 +1583,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell24
+#Table2 .cell24
 {
    background-color: transparent;
    background-image: none;
@@ -1595,15 +1595,15 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 tr:nth-child(odd)
+#Table2 tr:nth-child(odd)
 {
    background-color: #FFFFFF;
 }
-#Table1 tr:hover
+#Table2 tr:hover
 {
    background-color: #808080;
 }
-#Table1
+#Table2
 {
    border-radius: 0px;
    border: 0px solid #FFFFFF;
@@ -1613,20 +1613,20 @@ body
    border-spacing: 0px;
    margin: 0;
 }
-#Table1 td, #Table1 th
+#Table2 td, #Table2 th
 {
    padding: 8px 8px 8px 8px;
 }
-#Table1 td div
+#Table2 td div
 {
    white-space: nowrap;
 }
-#Table1 p, #Table1 ul
+#Table2 p, #Table2 ul
 {
    margin: 0;
    padding: 0;
 }
-#Table1 .cell0
+#Table2 .cell0
 {
    background-color: transparent;
    background-image: none;
@@ -1639,7 +1639,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell1
+#Table2 .cell1
 {
    background-color: transparent;
    background-image: none;
@@ -1652,7 +1652,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell2
+#Table2 .cell2
 {
    background-color: transparent;
    background-image: none;
@@ -1665,7 +1665,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell3
+#Table2 .cell3
 {
    background-color: transparent;
    background-image: none;
@@ -1678,7 +1678,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell4
+#Table2 .cell4
 {
    background-color: transparent;
    background-image: none;
@@ -1690,71 +1690,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell5
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 12px;
-   line-height: 13.5px;
-}
-#Table1 .cell6
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell7
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell8
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell9
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   height: 13.22%;
-   color: #3CB371;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#Table1 .cell10
+#Table2 .cell5
 {
    background-color: transparent;
    background-image: none;
@@ -1767,7 +1703,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell11
+#Table2 .cell6
 {
    background-color: transparent;
    background-image: none;
@@ -1780,7 +1716,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell12
+#Table2 .cell7
 {
    background-color: transparent;
    background-image: none;
@@ -1793,7 +1729,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell13
+#Table2 .cell8
 {
    background-color: transparent;
    background-image: none;
@@ -1806,7 +1742,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell14
+#Table2 .cell9
 {
    background-color: transparent;
    background-image: none;
@@ -1818,7 +1754,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell15
+#Table2 .cell10
 {
    background-color: transparent;
    background-image: none;
@@ -1831,7 +1767,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell16
+#Table2 .cell11
 {
    background-color: transparent;
    background-image: none;
@@ -1844,7 +1780,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell17
+#Table2 .cell12
 {
    background-color: transparent;
    background-image: none;
@@ -1857,7 +1793,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell18
+#Table2 .cell13
 {
    background-color: transparent;
    background-image: none;
@@ -1870,7 +1806,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell19
+#Table2 .cell14
 {
    background-color: transparent;
    background-image: none;
@@ -1882,7 +1818,71 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell20
+#Table2 .cell15
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 12px;
+   line-height: 13.5px;
+}
+#Table2 .cell16
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell17
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell18
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+   width: 16.98%;
+   height: 13.22%;
+   color: #34495E;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell19
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: center;
+   vertical-align: middle;
+   height: 13.22%;
+   color: #3CB371;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#Table2 .cell20
 {
    background-color: transparent;
    background-image: none;
@@ -1895,7 +1895,7 @@ body
    font-size: 12px;
    line-height: 13.5px;
 }
-#Table1 .cell21
+#Table2 .cell21
 {
    background-color: transparent;
    background-image: none;
@@ -1908,7 +1908,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell22
+#Table2 .cell22
 {
    background-color: transparent;
    background-image: none;
@@ -1921,7 +1921,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell23
+#Table2 .cell23
 {
    background-color: transparent;
    background-image: none;
@@ -1934,7 +1934,7 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 .cell24
+#Table2 .cell24
 {
    background-color: transparent;
    background-image: none;
@@ -1946,11 +1946,11 @@ body
    font-size: 13px;
    line-height: 16px;
 }
-#Table1 tr:nth-child(odd)
+#Table2 tr:nth-child(odd)
 {
    background-color: #FFFFFF;
 }
-#Table1 tr:hover
+#Table2 tr:hover
 {
    background-color: #808080;
 }

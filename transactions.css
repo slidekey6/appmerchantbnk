@@ -417,7 +417,6 @@ body
    background-image: none;
    text-align: center;
    vertical-align: middle;
-   width: 16.98%;
    height: 13.22%;
    color: #34495E;
    font-family: Arial;
@@ -428,14 +427,14 @@ body
 {
    background-color: transparent;
    background-image: none;
-   text-align: center;
+   text-align: left;
    vertical-align: middle;
    width: 16.98%;
    height: 13.22%;
    color: #34495E;
    font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
+   font-size: 12px;
+   line-height: 13.5px;
 }
 #text9Table .cell4
 {
@@ -444,7 +443,7 @@ body
    text-align: center;
    vertical-align: middle;
    height: 13.22%;
-   color: #34495E;
+   color: #3CB371;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
@@ -456,7 +455,7 @@ body
    text-align: left;
    vertical-align: middle;
    width: 16.98%;
-   height: 13.22%;
+   height: 14.05%;
    color: #34495E;
    font-family: Arial;
    font-size: 12px;
@@ -469,7 +468,7 @@ body
    text-align: center;
    vertical-align: middle;
    width: 16.98%;
-   height: 13.22%;
+   height: 14.05%;
    color: #34495E;
    font-family: Arial;
    font-size: 13px;
@@ -479,221 +478,16 @@ body
 {
    background-color: transparent;
    background-image: none;
-   text-align: center;
+   text-align: left;
    vertical-align: middle;
    width: 16.98%;
-   height: 13.22%;
+   height: 14.05%;
    color: #34495E;
    font-family: Arial;
    font-size: 13px;
    line-height: 16px;
 }
 #text9Table .cell8
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell9
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   height: 13.22%;
-   color: #3CB371;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell10
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 12px;
-   line-height: 13.5px;
-}
-#text9Table .cell11
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell12
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell13
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell14
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   height: 13.22%;
-   color: #3CB371;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell15
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 12px;
-   line-height: 13.5px;
-}
-#text9Table .cell16
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell17
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell18
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 13.22%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell19
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   height: 13.22%;
-   color: #3CB371;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell20
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 14.05%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 12px;
-   line-height: 13.5px;
-}
-#text9Table .cell21
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 14.05%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell22
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: center;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 14.05%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell23
-{
-   background-color: transparent;
-   background-image: none;
-   text-align: left;
-   vertical-align: middle;
-   width: 16.98%;
-   height: 14.05%;
-   color: #34495E;
-   font-family: Arial;
-   font-size: 13px;
-   line-height: 16px;
-}
-#text9Table .cell24
 {
    background-color: transparent;
    background-image: none;
