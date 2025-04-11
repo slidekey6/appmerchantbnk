@@ -362,7 +362,6 @@ body
    border-radius: 14px;
    margin: 0;
    text-align: center;
-   text-decoration: none;
    color: #FFFFFF;
    font-family: Arial;
    font-weight: normal;
@@ -372,12 +371,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#AdvancedButton1 > div
-{
-   position: relative;
-   top: 50%;
-   transform: translateY(-50%);
 }
 #wb_Text4 
 {
