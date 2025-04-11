@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(27%) sepia(92%) saturate(3482%) hue-rotate(213deg) brightness(105%) contrast(99%);
+   --colorize: invert(32%) sepia(39%) saturate(5663%) hue-rotate(211deg) brightness(96%) contrast(113%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(25%) sepia(86%) saturate(3200%) hue-rotate(213deg) brightness(102%) contrast(98%);
+   --colorize: invert(35%) sepia(98%) saturate(3442%) hue-rotate(207deg) brightness(98%) contrast(105%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -166,7 +166,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(30%) sepia(88%) saturate(4281%) hue-rotate(213deg) brightness(103%) contrast(99%);
+   --colorize: invert(38%) sepia(95%) saturate(4696%) hue-rotate(209deg) brightness(100%) contrast(98%);
 }
 .ui-state-default
 {
@@ -228,7 +228,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(26%) sepia(70%) saturate(3409%) hue-rotate(210deg) brightness(101%) contrast(97%);
+   --colorize: invert(75%) sepia(92%) saturate(7500%) hue-rotate(208deg) brightness(98%) contrast(100%);
 }
 .darktheme .ui-state-default, .darktheme .wb-theme-static
 {
@@ -1953,6 +1953,56 @@ body
 #Table1 tr:hover
 {
    background-color: #808080;
+}
+#Layer11
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 16px;
+}
+#Layer14
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#Button3
+{
+   box-sizing: border-box;
+   line-height: 12px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #0D6EFD;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #0000FF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   padding: 1px 6px 1px 6px;
+   text-align: right;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button3:focus
+{
+   outline: 0;
 }
 #wb_Form2
 {
