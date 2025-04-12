@@ -394,41 +394,27 @@ body
    overflow: visible;
    text-decoration: none;
    cursor: pointer;
-}
-#wb_ThemeableButton7
-{
-   border-radius: 6px;
    margin: 0;
-   vertical-align: top;
-}
-#ThemeableButton7
-{
-   box-sizing: border-box;
    padding: 0;
    text-align: center;
+   vertical-align: top;
 }
-#wb_ThemeableButton7 .ui-button
+#ThemeableButton7 .ui-button
 {
-   display: flex;
-   align-items: center;
-   margin: 0;
-   justify-content: center;
+   position: absolute;
+   padding: 0;
 }
-#ThemeableButton7
-{
-   color: inherit;
-}
-#wb_ThemeableButton7 .ui-corner-all, #wb_ThemeableButton7 .ui-corner-left
+#ThemeableButton7.ui-corner-all
 {
    border-bottom-left-radius: 6px;
    border-top-left-radius: 6px;
 }
-#wb_ThemeableButton7 .ui-corner-all, #wb_ThemeableButton7 .ui-corner-right
+#ThemeableButton7.ui-corner-all
 {
    border-bottom-right-radius: 6px;
    border-top-right-radius: 6px;
 }
-#wb_ThemeableButton7 .ui-button
+#ThemeableButton7.ui-button
 {
    background-color: #F5F5F5;
    background-image: none;
@@ -436,19 +422,19 @@ body
    color: #000000;
    transition: all 6ms linear;
 }
-#wb_ThemeableButton7 .ui-state-hover, #wb_ThemeableButton7 .ui-button:hover
+#ThemeableButton7.ui-state-hover, #ThemeableButton7.ui-button:hover
 {
    border-color: #CCCCCC;
    background-color: #A9A9A9;
    background-image: none;
    color: #000000;
 }
-#wb_ThemeableButton7 .ui-button:disabled
+#ThemeableButton7.ui-button:disabled
 {
    opacity: .5;
    pointer-events: none;
 }
-#wb_ThemeableButton7 .ui-state-active, #wb_ThemeableButton7 .ui-button:active
+#ThemeableButton7.ui-state-active, #ThemeableButton7.ui-button:active
 {
    border-color: #696969;
    background-color: #000000;
