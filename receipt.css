@@ -7,7 +7,7 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
+   background-color: #D3D3D3;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -18,7 +18,7 @@ body
 }
 #Layer1
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    background-image: none;
    border: 1px solid #CCCCCC;
    border-radius: 15px;
@@ -138,6 +138,19 @@ body
    background-image: none;
    color: #FFFFFF;
 }
+#HorizontalLine2
+{
+   border-color: #696969;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
 #wb_Text1 
 {
    background-color: transparent;
@@ -151,19 +164,6 @@ body
 #wb_Text1 div
 {
    text-align: left;
-}
-#HorizontalLine2
-{
-   border-color: #696969;
-   border-style: solid;
-   border-bottom-width: 2px;
-   border-top: 0;
-   border-left: 0;
-   border-right: 0;
-   height: 0 !important;
-   line-height: 0 !important;
-   margin: 0;
-   padding: 0;
 }
 #Button1
 {

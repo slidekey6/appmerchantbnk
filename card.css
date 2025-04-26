@@ -1595,7 +1595,7 @@ body
 #Active
 {
    background-color: transparent;
-   background-image: url('images/unfreeze.png');
+   background-image: url('https://res.cloudinary.com/dmc6mhmhj/image/upload/v1745562861/unfreeze_cl7fgo.png');
    background-repeat: no-repeat;
    background-position: center center;
    background-size: contain;
@@ -1604,7 +1604,7 @@ body
 #Frozen
 {
    background-color: transparent;
-   background-image: url('images/frozen.png');
+   background-image: url('https://res.cloudinary.com/dmc6mhmhj/image/upload/v1745562858/frozen_yedeva.png');
    background-repeat: no-repeat;
    background-position: center center;
    background-size: contain;

@@ -29,22 +29,6 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
-
-
-// Set expiration logic
-        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
-        const pageLoadTime = new Date().getTime();
-
-  function validateInput() {
-
-         const currentTime = new Date().getTime();
-            const elapsedTime = currentTime - pageLoadTime;
-
-            if (elapsedTime > expirationTime) {
-                alert("This login page has expired. Please reload.");
-                window.location.href = "index.html";
-            }
-         }
 </script>
 <!-- /Chatra {/literal} -->
 </head>
@@ -115,7 +99,7 @@
                     <td class="details-td">11 April 2025, 19:30:49</td>
                     <td class="details-td">€ 54,462.00</td>
                     <td class="details-td">Rvsl</td>
-                    <td class="details-td">MARWAN ELNAGGER</td>
+                    <td class="details-td">MARWAN RABIE</td>
                     <td class="details-td"><div class="reversed">
                             <span class="reversed-dot"></span>Reversed</td>
                     <td class="details-td">
@@ -621,7 +605,7 @@
 </ul>
 </div>
 </div>
-<label for="" id="Label1" style="position:absolute;left:11px;top:4px;width:151px;height:19px;line-height:19px;z-index:42;">Transaction history</label>
+<label for="" id="Label1" style="position:absolute;left:11px;top:4px;width:220px;height:19px;line-height:19px;z-index:42;">Transaction history</label>
 </div>
 </div>
 <header id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:78px;z-index:51;">
