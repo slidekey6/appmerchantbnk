@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(27%) sepia(97%) saturate(2690%) hue-rotate(210deg) brightness(102%) contrast(104%);
+   --colorize: invert(30%) sepia(90%) saturate(4805%) hue-rotate(214deg) brightness(107%) contrast(98%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(61%) sepia(99%) saturate(6680%) hue-rotate(210deg) brightness(101%) contrast(100%);
+   --colorize: invert(29%) sepia(92%) saturate(2759%) hue-rotate(209deg) brightness(100%) contrast(102%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -166,7 +166,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(29%) sepia(73%) saturate(2601%) hue-rotate(207deg) brightness(98%) contrast(103%);
+   --colorize: invert(29%) sepia(78%) saturate(2659%) hue-rotate(207deg) brightness(98%) contrast(102%);
 }
 .ui-state-default
 {
@@ -228,7 +228,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(32%) sepia(69%) saturate(2595%) hue-rotate(207deg) brightness(96%) contrast(107%);
+   --colorize: invert(40%) sepia(58%) saturate(7497%) hue-rotate(210deg) brightness(102%) contrast(99%);
 }
 .darktheme .ui-state-default, .darktheme .wb-theme-static
 {
