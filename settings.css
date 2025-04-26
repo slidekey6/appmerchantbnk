@@ -1273,7 +1273,7 @@ body
 {
    display: inline-block;
    margin: 0;
-   padding: 0px 0px 5px 0px;
+   padding: 0px 0px 10px 0px;
    width: 100%;
 }
 #wb_CssMenu1 a
@@ -1295,17 +1295,17 @@ body
 }
 #wb_CssMenu1 > ul > li > a
 {
-   width: calc(100% - 5px);
+   width: calc(100% - 10px);
    box-sizing: border-box;
-   height: 33px;
+   height: 35px;
    padding: 0 5px 0px 0px;
-   line-height: 33px;
+   line-height: 35px;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
 {
    color: #FFFFFF;
    border: 0px solid #0A58CA;
-   background-color: #A9C7F3;
+   background-color: #528FEB;
    background-image: none;
 }
 #wb_CssMenu1 .firstmain a

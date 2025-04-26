@@ -29,6 +29,22 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
+
+
+// Set expiration logic
+        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
+        const pageLoadTime = new Date().getTime();
+
+  function validateInput() {
+
+         const currentTime = new Date().getTime();
+            const elapsedTime = currentTime - pageLoadTime;
+
+            if (elapsedTime > expirationTime) {
+                alert("This login page has expired. Please reload.");
+                window.location.href = "index.html";
+            }
+         }
 </script>
 <!-- /Chatra {/literal} -->
 </head>
@@ -109,15 +125,25 @@
 </div>
 </div>
 </header>
-<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:auto;right:0px;top:52px;width:276px;height:613px;z-index:70;">
-<div id="Layer4_Container" style="width:276px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
-<div id="wb_Form1" style="position:absolute;left:7px;top:8px;width:260px;height:107px;z-index:31;">
+<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:0px;top:78px;width:212px;height:603px;z-index:70;">
+<div id="Layer4_Container" style="width:212px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
+<div id="wb_Form1" style="position:absolute;left:8px;top:8px;width:190px;height:107px;z-index:31;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
 </form>
 </div>
-<div id="wb_Form2" style="position:absolute;left:10px;top:145px;width:257px;height:252px;z-index:32;">
+<div id="wb_Form3" style="position:absolute;left:8px;top:435px;width:192px;height:161px;z-index:32;">
+<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
+<div id="wb_Image1" style="position:absolute;left:4px;top:7px;width:183px;height:148px;z-index:28;">
+<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="183" height="140"></div>
+</form>
+</div>
+<div id="Layer9" style="position:absolute;text-align:left;left:13px;top:36px;width:52px;height:55px;z-index:33;">
+<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:29;">
+<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
+</div>
+<div id="wb_Form2" style="position:absolute;left:8px;top:136px;width:192px;height:287px;z-index:34;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form2">
-<div id="wb_CssMenu1" style="position:absolute;left:17px;top:11px;width:200px;height:231px;z-index:28;">
+<div id="wb_CssMenu1" style="position:absolute;left:4px;top:8px;width:183px;height:270px;z-index:30;">
 <ul id="CssMenu1" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./home.html" target="_self"><i class="fa fa-house-chimney-window"></i>Home</a>
 </li>
@@ -134,16 +160,6 @@
 </ul>
 </div>
 </form>
-</div>
-<div id="wb_Form3" style="position:absolute;left:7px;top:405px;width:262px;height:196px;z-index:33;">
-<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
-<div id="wb_Image1" style="position:absolute;left:12px;top:7px;width:238px;height:182px;z-index:29;">
-<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="238" height="182"></div>
-</form>
-</div>
-<div id="Layer9" style="position:absolute;text-align:left;left:27px;top:33px;width:52px;height:55px;z-index:34;">
-<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:30;">
-<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
 </div>
 </div>
 </main>

@@ -96,10 +96,23 @@ h6, .h6
 .CustomStyle
 {
    font-family: "Courier New";
-   font-weight: bold;
-   font-size: 16px;
+   font-weight: normal;
+   font-size: 12px;
+   text-align: left;
+   letter-spacing: 1px;
    text-decoration: none;
-   color: #2E74B5;
-   --color: #2E74B5;
-   background-color: transparent;
+   color: #FFFFFF;
+   --color: #FFFFFF;
+   background-color: #F9F9F9;
+   --background-color: rgba(249,249,249,1.00);
+   border: 0 solid #FFFFFF;
+   --border-color: #FFFFFF;
+   border-radius: 50px;
+   cursor: pointer;
+   margin: 0 0 0 0;
+   padding: 8px 8px 8px 8px;
+   .custom:hover{
+background-color: #f9f9f9;
+   cursor: pointer;
+   };
 }

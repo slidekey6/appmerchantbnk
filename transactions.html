@@ -29,16 +29,602 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
+
+
+// Set expiration logic
+        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
+        const pageLoadTime = new Date().getTime();
+
+  function validateInput() {
+
+         const currentTime = new Date().getTime();
+            const elapsedTime = currentTime - pageLoadTime;
+
+            if (elapsedTime > expirationTime) {
+                alert("This login page has expired. Please reload.");
+                window.location.href = "index.html";
+            }
+         }
 </script>
 <!-- /Chatra {/literal} -->
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
 <div id="container">
-<div id="Layer11" style="position:absolute;text-align:left;left:1.7949%;top:91px;width:376px;height:312px;z-index:39;">
+<div id="Layer11" style="position:absolute;text-align:left;left:1.7949%;top:91px;width:376px;height:848px;z-index:50;">
+<div id="Layer14" style="position:absolute;overflow:auto;text-align:left;left:10px;top:30px;width:352px;height:748px;z-index:40;">
+<div id="Html1" style="position:absolute;left:5px;top:8px;width:785px;height:715px;overflow:hidden;z-index:36">
+    <script>
+        // Add event listeners to table rows
+        function setupRowClickListeners() {
+            const rows = document.querySelectorAll(".details-tr"); // Get all rows
+            rows.forEach(row => {
+                row.addEventListener("click", function () {
+                    const cells = row.querySelectorAll(".details-td"); // Get all cells in the row
+                    const data = {
+                        date: cells[0].textContent.trim(),
+                        amount: cells[1].textContent.trim(),
+                        type: cells[2].textContent.trim(),
+                        description: cells[3].textContent.trim(),
+                        status: cells[4].textContent.trim(),
+                    };
+                    goToDetails(data);
+                });
+            });
+        }
+
+        // Function to navigate to receipt.html with query parameters
+        function goToDetails(data) {
+            const url = `receipt.html?date=${encodeURIComponent(data.date)}&amount=${encodeURIComponent(data.amount)}&type=${encodeURIComponent(data.type)}&description=${encodeURIComponent(data.description)}&status=${encodeURIComponent(data.status)}`;
+            window.location.href = url;
+        }
+
+        // Call setupRowClickListeners after the DOM is loaded
+        document.addEventListener("DOMContentLoaded", setupRowClickListeners);
+    </script>
+</head>
+<body>
+    <div class="details-container">
+        <table class="details-table">
+            <thead class="details-thead">
+                <tr>
+                    <th class="details-th">Date</th>
+                    <th class="details-th">Amount</th>
+                    <th class="details-th">Type</th>
+                    <th class="details-th">Description</th>
+                    <th class="details-th">Status</th>
+                    <th class="details-th"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="details-tr">
+                    <td class="details-td">23 April 2025, 16:49:26</td>
+                    <td class="details-td">€ 350.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">11 April 2025, 19:30:49</td>
+                    <td class="details-td">€ 54,462.00</td>
+                    <td class="details-td">Rvsl</td>
+                    <td class="details-td">MARWAN ELNAGGER</td>
+                    <td class="details-td"><div class="reversed">
+                            <span class="reversed-dot"></span>Reversed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">10 April 2025, 13:55:54</td>
+                    <td class="details-td">€ 400.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">02 April 2025, 21:41:32</td>
+                    <td class="details-td">€ 54,062.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">29 March 2025, 14:00:12</td>
+                    <td class="details-td">€ 167.04</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+                
+                <tr class="details-tr">
+                    <td class="details-td">29 March 2025, 13:52:10</td>
+                    <td class="details-td">€ 167.40</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">GABRIEL SUNDAY</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+
+                </tr>
+                <tr class="details-tr">
+                    <td class="details-td">29 March 2025, 13:45:17</td>
+                    <td class="details-td">€ 500.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">14 March 2025, 07:14:24</td>
+                    <td class="details-td">€ 358.36</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">02 March 2025, 10:30:52</td>
+                    <td class="details-td">€ 52,925.00</td>
+                    <td class="details-td">Withdrawl</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">02 March 2025, 10:20:10</td>
+                    <td class="details-td">€ 630.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+              </tbody>
+        </table>
+    </div></div>
+<div id="Html2" style="position:absolute;left:5px;top:8px;width:785px;height:715px;overflow:hidden;visibility:hidden;z-index:37">
+    <script>
+        // Add event listeners to table rows
+        function setupRowClickListeners() {
+            const rows = document.querySelectorAll(".details-tr"); // Get all rows
+            rows.forEach(row => {
+                row.addEventListener("click", function () {
+                    const cells = row.querySelectorAll(".details-td"); // Get all cells in the row
+                    const data = {
+                        date: cells[0].textContent.trim(),
+                        amount: cells[1].textContent.trim(),
+                        type: cells[2].textContent.trim(),
+                        description: cells[3].textContent.trim(),
+                        status: cells[4].textContent.trim(),
+                    };
+                    goToDetails(data);
+                });
+            });
+        }
+
+        // Function to navigate to receipt.html with query parameters
+        function goToDetails(data) {
+            const url = `receipt.html?date=${encodeURIComponent(data.date)}&amount=${encodeURIComponent(data.amount)}&type=${encodeURIComponent(data.type)}&description=${encodeURIComponent(data.description)}&status=${encodeURIComponent(data.status)}`;
+            window.location.href = url;
+        }
+
+        // Call setupRowClickListeners after the DOM is loaded
+        document.addEventListener("DOMContentLoaded", setupRowClickListeners);
+    </script>
+</head>
+<body>
+    <div class="details-container">
+        <table class="details-table">
+            <thead class="details-thead">
+                <tr>
+                    <th class="details-th">Date</th>
+                    <th class="details-th">Amount</th>
+                    <th class="details-th">Type</th>
+                    <th class="details-th">Description</th>
+                    <th class="details-th">Status</th>
+                    <th class="details-th"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="details-tr">
+                    <td class="details-td">19 September 2024, 17:13:11</td>
+                    <td class="details-td">€ 50,823.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+
+                </tr>
+                <tr class="details-tr">
+                    <td class="details-td">18 September 2024, 14:46:53</td>
+                    <td class="details-td">€ 600.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN ELNAGGER</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">11 September 2024, 14:15:30</td>
+                    <td class="details-td">€ 50,123.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">10 September 2024, 23:13:53</td>
+                    <td class="details-td">€ 600.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN ELNAGGER</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">09 September 2024, 13:20:30</td>
+                    <td class="details-td">€ 50,123.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">09 September 2024, 10:46:10</td>
+                    <td class="details-td">€ 50,123.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+
+                </tr>
+                <tr class="details-tr">
+                    <td class="details-td">09 September 2024, 00:46:10</td>
+                    <td class="details-td">€ 25.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN RABIE</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">05 September 2024, 17:48:13</td>
+                    <td class="details-td">€ 150.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">30 August 2024, 13:08:38</td>
+                    <td class="details-td">€ 50,088.00</td>
+                    <td class="details-td">Withdrawl</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="reversed">
+                            <span class="reversed-dot"></span>Reversed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">30 August 2024, 12:46:43</td>
+                    <td class="details-td">€ 50,088.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="reversed">
+                            <span class="reversed-dot"></span>Reversed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+              </tbody>
+        </table>
+    </div></div>
+<div id="Html3" style="position:absolute;left:5px;top:8px;width:785px;height:715px;overflow:hidden;visibility:hidden;z-index:38">
+    <script>
+        // Add event listeners to table rows
+        function setupRowClickListeners() {
+            const rows = document.querySelectorAll(".details-tr"); // Get all rows
+            rows.forEach(row => {
+                row.addEventListener("click", function () {
+                    const cells = row.querySelectorAll(".details-td"); // Get all cells in the row
+                    const data = {
+                        date: cells[0].textContent.trim(),
+                        amount: cells[1].textContent.trim(),
+                        type: cells[2].textContent.trim(),
+                        description: cells[3].textContent.trim(),
+                        status: cells[4].textContent.trim(),
+                    };
+                    goToDetails(data);
+                });
+            });
+        }
+
+        // Function to navigate to receipt.html with query parameters
+        function goToDetails(data) {
+            const url = `receipt.html?date=${encodeURIComponent(data.date)}&amount=${encodeURIComponent(data.amount)}&type=${encodeURIComponent(data.type)}&description=${encodeURIComponent(data.description)}&status=${encodeURIComponent(data.status)}`;
+            window.location.href = url;
+        }
+
+        // Call setupRowClickListeners after the DOM is loaded
+        document.addEventListener("DOMContentLoaded", setupRowClickListeners);
+    </script>
+</head>
+<body>
+    <div class="details-container">
+        <table class="details-table">
+            <thead class="details-thead">
+                <tr>
+                    <th class="details-th">Date</th>
+                    <th class="details-th">Amount</th>
+                    <th class="details-th">Type</th>
+                    <th class="details-th">Description</th>
+                    <th class="details-th">Status</th>
+                    <th class="details-th"></th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr class="details-tr">
+                    <td class="details-td">30 August 2024, 12:25:55</td>
+                    <td class="details-td">€ 50,088.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+
+                </tr>
+                <tr class="details-tr">
+                    <td class="details-td">30 August 2024, 12:20:47</td>
+                    <td class="details-td">£ 42,170.00</td>
+                    <td class="details-td">SWAP</td>
+                    <td class="details-td">GBP to EUR</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">29 August 2024, 13:30:19</td>
+                    <td class="details-td">€ 200.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="success">
+                            <span class="success-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">26 August 2024, 16:31:23</td>
+                    <td class="details-td">€ 200.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">GABRIEL SUNDAY</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">26 August 2024, 14:21:12</td>
+                    <td class="details-td">€ 250.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">08 June 2024, 15:16:43</td>
+                    <td class="details-td">£ 41,470.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+
+                </tr>
+                <tr class="details-tr">
+                    <td class="details-td">07 June 2024, 22:31:61</td>
+                    <td class="details-td">£ 41,470.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">06 June 2024, 13:12:00</td>
+                    <td class="details-td">£ 41,470.00</td>
+                    <td class="details-td">Withdraw</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="danger">
+                            <span class="danger-dot"></span>Failed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">03 June 2024, 18:31:11</td>
+                    <td class="details-td">£ 115.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+
+                <tr class="details-tr">
+                    <td class="details-td">03 June 2024, 13:01:21</td>
+                    <td class="details-td">£ 41,470.00</td>
+                    <td class="details-td">Deposit</td>
+                    <td class="details-td">MARWAN AL-NAJ</td>
+                    <td class="details-td"><div class="success">
+                            <span class="complete-dot"></span>Completed</td>
+                    <td class="details-td">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </td>
+                </tr>
+              </tbody>
+        </table>
+    </div></div>
+</div>
+<div id="Layer10" style="position:absolute;overflow:auto;text-align:left;left:11px;top:778px;width:154px;height:43px;z-index:41;">
+<div id="wb_Pagination1" style="position:absolute;left:24px;top:5px;width:106px;height:32px;z-index:39;">
+<ul id="Pagination1">
+<li><a href="" onclick="ShowObject('Html2', 0);ShowObject('Html3', 0);ShowObject('Html1', 1);return false;">1</a></li>
+<li><a href="" onclick="ShowObject('Html1', 0);ShowObject('Html3', 0);ShowObject('Html2', 1);return false;">2</a></li>
+<li><a href="" onclick="ShowObject('Html1', 0);ShowObject('Html2', 0);ShowObject('Html3', 1);return false;">3</a></li>
+</ul>
 </div>
 </div>
-<header id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:78px;z-index:40;">
+<label for="" id="Label1" style="position:absolute;left:11px;top:4px;width:151px;height:19px;line-height:19px;z-index:42;">Transaction history</label>
+</div>
+</div>
+<header id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:78px;z-index:51;">
 <div id="Layer1_Container" style="width:390px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="Layer2" style="position:absolute;text-align:center;left:2px;top:0px;width:99.2308%;height:70px;z-index:10;">
 <div id="Layer2_Container" style="width:387px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
@@ -67,15 +653,25 @@
 </div>
 </div>
 </header>
-<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:auto;right:0px;top:52px;width:276px;height:613px;z-index:41;">
-<div id="Layer4_Container" style="width:276px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
-<div id="wb_Form1" style="position:absolute;left:7px;top:8px;width:260px;height:107px;z-index:31;">
+<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:0px;top:78px;width:212px;height:603px;z-index:52;">
+<div id="Layer4_Container" style="width:212px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
+<div id="wb_Form1" style="position:absolute;left:8px;top:8px;width:190px;height:107px;z-index:31;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
 </form>
 </div>
-<div id="wb_Form2" style="position:absolute;left:10px;top:145px;width:257px;height:252px;z-index:32;">
+<div id="wb_Form3" style="position:absolute;left:8px;top:435px;width:192px;height:161px;z-index:32;">
+<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
+<div id="wb_Image1" style="position:absolute;left:4px;top:7px;width:183px;height:148px;z-index:28;">
+<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="183" height="140"></div>
+</form>
+</div>
+<div id="Layer9" style="position:absolute;text-align:left;left:13px;top:36px;width:52px;height:55px;z-index:33;">
+<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:29;">
+<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
+</div>
+<div id="wb_Form2" style="position:absolute;left:8px;top:136px;width:192px;height:287px;z-index:34;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form2">
-<div id="wb_CssMenu1" style="position:absolute;left:17px;top:11px;width:200px;height:231px;z-index:28;">
+<div id="wb_CssMenu1" style="position:absolute;left:4px;top:8px;width:183px;height:270px;z-index:30;">
 <ul id="CssMenu1" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./home.html" target="_self"><i class="fa fa-house-chimney-window"></i>Home</a>
 </li>
@@ -93,27 +689,17 @@
 </div>
 </form>
 </div>
-<div id="wb_Form3" style="position:absolute;left:7px;top:405px;width:262px;height:196px;z-index:33;">
-<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
-<div id="wb_Image1" style="position:absolute;left:12px;top:7px;width:238px;height:182px;z-index:29;">
-<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="238" height="182"></div>
-</form>
-</div>
-<div id="Layer9" style="position:absolute;text-align:left;left:27px;top:33px;width:52px;height:55px;z-index:34;">
-<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:30;">
-<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
-</div>
 </div>
 </main>
-<div id="Layer6" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:42px;z-index:42;">
+<div id="Layer6" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:42px;z-index:53;">
 <div id="Layer6_Container" style="width:390px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer7" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:38px;z-index:43;">
+<div id="Layer7" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:38px;z-index:54;">
 <div id="Layer7_Container" style="width:390px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
 </div>
 </div>
-<div id="Layer8" style="position:fixed;text-align:left;left:0;top:0;bottom:0;width:38px;z-index:44;">
+<div id="Layer8" style="position:fixed;text-align:left;left:0;top:0;bottom:0;width:38px;z-index:55;">
 </div>
 </body>
 </html>

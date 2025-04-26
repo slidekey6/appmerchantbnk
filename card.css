@@ -350,37 +350,6 @@ body
 {
    text-align: left;
 }
-#wb_cForm
-{
-   background-color: #FBFBFB;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 16px;
-}
-#wb_Form4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   border-radius: 15px;
-}
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   object-fit: contain;
-}
 #ThemeableButton7
 {
    font-family: Arial;
@@ -561,6 +530,1414 @@ body
    background-image: none;
    color: #FFFFFF;
 }
+#Layer10
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 16px;
+}
+#Layer11
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 15px;
+}
+#Layer12
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 15px;
+}
+#Label1
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label1:focus
+{
+   outline: 0;
+}
+#Label2
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label2:focus
+{
+   outline: 0;
+}
+#Label3
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label3:focus
+{
+   outline: 0;
+}
+#Label4
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label4:focus
+{
+   outline: 0;
+}
+#Label7
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label7:focus
+{
+   outline: 0;
+}
+#Label8
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label8:focus
+{
+   outline: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3 div
+{
+   text-align: left;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_Icon5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon5
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon5
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon5:hover #Icon5
+{
+   fill: #696969;
+}
+#wb_Icon6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon6
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon6
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon6:hover #Icon6
+{
+   fill: #696969;
+}
+#wb_Icon7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon7
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon7
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon7:hover #Icon7
+{
+   fill: #696969;
+}
+#wb_Icon8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon8
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon8
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon8:hover #Icon8
+{
+   fill: #696969;
+}
+#wb_Icon9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon9
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon9
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon9:hover #Icon9
+{
+   fill: #696969;
+}
+#wb_Icon10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 25px;
+   vertical-align: top;
+}
+#Icon10
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon10
+{
+   fill: #0D6EFD;
+   display: inline-block;
+   font-size: 19px;
+   vertical-align: middle;
+}
+#wb_Icon10:hover #Icon10
+{
+   fill: #696969;
+}
+#wb_Icon11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_Icon11 a
+{
+   text-decoration: none;
+}
+#wb_Icon11 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#Icon11
+{
+   height: 34px;
+   width: 46px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+.Icon11
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+}
+.Icon11:before
+{
+   content: "\e5c4";
+}
+#Icon11 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 34px;
+   line-height: 34px;
+   vertical-align: middle;
+}
+#wb_Icon11:hover #Icon11 i
+{
+   color: #0D6EFD;
+}
+#Layer13
+{
+   background-clip: padding-box;
+   background-color: #B0C4DE;
+   background-image: none;
+   border-radius: 50px;
+}
+#Label5
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #0000FF;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label5:focus
+{
+   outline: 0;
+}
+#Label6
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label6:focus
+{
+   outline: 0;
+}
+#Layer14
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 15px;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text8 div
+{
+   text-align: left;
+}
+#wb_Icon12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_Icon12 a
+{
+   text-decoration: none;
+}
+#wb_Icon12 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#Icon12
+{
+   height: 34px;
+   width: 49px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+.Icon12
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+}
+.Icon12:before
+{
+   content: "\e5c4";
+}
+#Icon12 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 34px;
+   line-height: 34px;
+   vertical-align: middle;
+}
+#wb_Icon12:hover #Icon12 i
+{
+   color: #0D6EFD;
+}
+#Activate
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#Activate .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#Activate.ui-corner-all
+{
+   border-bottom-left-radius: 6px;
+   border-top-left-radius: 6px;
+}
+#Activate.ui-corner-all
+{
+   border-bottom-right-radius: 6px;
+   border-top-right-radius: 6px;
+}
+#Activate.ui-button
+{
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #000000;
+   transition: all 6ms linear;
+}
+#Activate.ui-state-hover, #Activate.ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #A9A9A9;
+   background-image: none;
+   color: #000000;
+}
+#Activate.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#Activate.ui-state-active, #Activate.ui-button:active
+{
+   border-color: #696969;
+   background-color: #000000;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_FlipSwitch1
+{
+   margin: 0;
+}
+#FlipSwitch1
+{
+   display: none;
+}
+#FlipSwitch1-label
+{
+   display: block;
+   overflow: hidden;
+   cursor: pointer;
+   border: 2px solid #DEE2E6;
+   border-radius: 23px;
+   box-sizing: border-box;
+   max-width: 100%;
+   height: 100%;
+   transition: border-color 300ms ease-in 0s;
+}
+#FlipSwitch1-inner
+{
+   box-sizing: border-box;
+   display: block;
+   width: 200%;
+   margin-left: -100%;
+   transition: margin 300ms ease-in 0s;
+}
+#FlipSwitch1-inner:before, #FlipSwitch1-inner:after
+{
+   display: block;
+   float: left;
+   width: 50%;
+   height: 23px;
+   padding: 0;
+   line-height: 23px;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   box-sizing: border-box;
+   border-radius: 23px;
+   text-align: center;
+}
+#FlipSwitch1-inner:before
+{
+   content: "Unfreeze";
+   padding-right: 23px;
+   background-color: #0A58CA;
+   color: #FFFFFF;
+   border-radius: 23px 0 0 23px;
+}
+#FlipSwitch1-inner:after
+{
+   content: "Freeze";
+   padding-left: 23px;
+   background-color: #FFFFFF;
+   color: #212529;
+   border-radius: 0 23px 23px 0;
+}
+#FlipSwitch1-switch
+{
+   display: block;
+   width: 23px;
+   margin: 0;
+   background: #0D6EFD;
+   border: 2px solid #0D6EFD;
+   border-radius: 23px;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.30);
+   position: absolute;
+   top: 2px;
+   bottom: 2px;
+   right: 86px;
+   transition: all 300ms ease-in 0s;
+   box-sizing: border-box;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label
+{
+   border-color: #0A53BE;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label #FlipSwitch1-inner
+{
+   margin-left: 0;
+}
+#FlipSwitch1:checked + #FlipSwitch1-label #FlipSwitch1-switch
+{
+   right: 2px;
+   background: #0D6EFD;
+   border-color: #0D6EFD;
+}
+#add_money
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#add_money .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#add_money .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M54%2015%20C54%2013%2c%2053%2012%2c%2052%2011%20L52%2011%20L52%2011%20C51%2010%2c%2050%209%2c%2048%209%20C46%209%2c%2045%2010%2c%2044%2011%20C43%2012%2c%2042%2013%2c%2042%2015%20L42%2042%20L42%2042%20L15%2042%20L15%2042%20C13%2042%2c%2012%2043%2c%2011%2044%20C10%2045%2c%209%2046%2c%209%2048%20C9%2050%2c%2010%2051%2c%2011%2052%20C12%2054%2c%2013%2054%2c%2015%2054%20L42%2054%20L42%2054%20L42%2081%20L42%2081%20C42%2083%2c%2043%2084%2c%2044%2085%20C45%2087%2c%2046%2087%2c%2048%2087%20C50%2087%2c%2051%2087%2c%2052%2085%20C53%2084%2c%2054%2083%2c%2054%2081%20L54%2054%20L54%2054%20L81%2054%20L81%2054%20C83%2054%2c%2084%2054%2c%2085%2052%20C86%2051%2c%2087%2050%2c%2087%2048%20C87%2046%2c%2086%2045%2c%2085%2044%20C84%2043%2c%2083%2042%2c%2081%2042%20L54%2042%20L54%2042%20L54%2015Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#add_money:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M54%2015%20C54%2013%2c%2053%2012%2c%2052%2011%20L52%2011%20L52%2011%20C51%2010%2c%2050%209%2c%2048%209%20C46%209%2c%2045%2010%2c%2044%2011%20C43%2012%2c%2042%2013%2c%2042%2015%20L42%2042%20L42%2042%20L15%2042%20L15%2042%20C13%2042%2c%2012%2043%2c%2011%2044%20C10%2045%2c%209%2046%2c%209%2048%20C9%2050%2c%2010%2051%2c%2011%2052%20C12%2054%2c%2013%2054%2c%2015%2054%20L42%2054%20L42%2054%20L42%2081%20L42%2081%20C42%2083%2c%2043%2084%2c%2044%2085%20C45%2087%2c%2046%2087%2c%2048%2087%20C50%2087%2c%2051%2087%2c%2052%2085%20C53%2084%2c%2054%2083%2c%2054%2081%20L54%2054%20L54%2054%20L81%2054%20L81%2054%20C83%2054%2c%2084%2054%2c%2085%2052%20C86%2051%2c%2087%2050%2c%2087%2048%20C87%2046%2c%2086%2045%2c%2085%2044%20C84%2043%2c%2083%2042%2c%2081%2042%20L54%2042%20L54%2042%20L54%2015Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#add_money:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M54%2015%20C54%2013%2c%2053%2012%2c%2052%2011%20L52%2011%20L52%2011%20C51%2010%2c%2050%209%2c%2048%209%20C46%209%2c%2045%2010%2c%2044%2011%20C43%2012%2c%2042%2013%2c%2042%2015%20L42%2042%20L42%2042%20L15%2042%20L15%2042%20C13%2042%2c%2012%2043%2c%2011%2044%20C10%2045%2c%209%2046%2c%209%2048%20C9%2050%2c%2010%2051%2c%2011%2052%20C12%2054%2c%2013%2054%2c%2015%2054%20L42%2054%20L42%2054%20L42%2081%20L42%2081%20C42%2083%2c%2043%2084%2c%2044%2085%20C45%2087%2c%2046%2087%2c%2048%2087%20C50%2087%2c%2051%2087%2c%2052%2085%20C53%2084%2c%2054%2083%2c%2054%2081%20L54%2054%20L54%2054%20L81%2054%20L81%2054%20C83%2054%2c%2084%2054%2c%2085%2052%20C86%2051%2c%2087%2050%2c%2087%2048%20C87%2046%2c%2086%2045%2c%2085%2044%20C84%2043%2c%2083%2042%2c%2081%2042%20L54%2042%20L54%2042%20L54%2015Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#add_money.ui-corner-all
+{
+   border-bottom-left-radius: 100px;
+   border-top-left-radius: 100px;
+}
+#add_money.ui-corner-all
+{
+   border-bottom-right-radius: 100px;
+   border-top-right-radius: 100px;
+}
+#add_money.ui-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DCDCDC;
+   color: #FFFFFF;
+}
+#add_money.ui-state-hover, #add_money.ui-button:hover
+{
+   border-color: #F5F5F5;
+   background-color: #696969;
+   background-image: none;
+   color: #FFFFFF;
+}
+#add_money.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#add_money.ui-state-active, #add_money.ui-button:active
+{
+   border-color: #DCDCDC;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #FFFFFF;
+}
+#freeze
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#freeze .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#freeze .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M49%200%20C52%20%2d1%2c%2053%201%2c%2054%204%20L54%2012%20L54%2012%20L56%208%20L56%208%20C59%206%2c%2061%206%2c%2064%208%20C66%2010%2c%2066%2013%2c%2064%2015%20L54%2026%20L54%2026%20L54%2039%20L54%2039%20L64%2032%20L64%2032%20L68%2018%20L68%2018%20C69%2015%2c%2071%2014%2c%2075%2014%20C78%2015%2c%2079%2017%2c%2078%2021%20L77%2025%20L77%2025%20L82%2021%20L82%2021%20C85%2020%2c%2088%2021%2c%2090%2024%20C91%2027%2c%2091%2029%2c%2088%2031%20L81%2034%20L81%2034%20L87%2035%20L87%2035%20C90%2036%2c%2091%2038%2c%2091%2041%20C89%2044%2c%2087%2046%2c%2084%2045%20L69%2041%20L69%2041%20L58%2048%20L58%2048%20L69%2054%20L69%2054%20L84%2050%20L84%2050%20C87%2049%2c%2089%2051%2c%2090%2054%20C91%2057%2c%2090%2059%2c%2087%2060%20L81%2061%20L81%2061%20L88%2064%20L88%2064%20C91%2066%2c%2091%2069%2c%2090%2072%20C88%2074%2c%2085%2075%2c%2082%2074%20L77%2070%20L77%2070%20L78%2075%20L78%2075%20C79%2078%2c%2078%2080%2c%2074%2081%20C71%2082%2c%2069%2080%2c%2068%2078%20L64%2063%20L64%2063%20L54%2056%20L54%2056%20L54%2069%20L54%2069%20L64%2080%20L64%2080%20C66%2082%2c%2066%2085%2c%2064%2087%20C61%2089%2c%2059%2089%2c%2056%2087%20L54%2083%20L54%2083%20L54%2091%20L54%2091%20C53%2094%2c%2051%2096%2c%2048%2097%20C45%2096%2c%2043%2094%2c%2042%2091%20L42%2083%20L42%2083%20L40%2087%20L40%2087%20C37%2089%2c%2035%2089%2c%2032%2087%20C30%2085%2c%2030%2082%2c%2032%2080%20L42%2069%20L42%2069%20L42%2056%20L42%2056%20L32%2063%20L32%2063%20L28%2077%20L28%2077%20C27%2080%2c%2025%2082%2c%2021%2081%20C18%2080%2c%2017%2078%2c%2018%2075%20L19%2070%20L19%2070%20L14%2074%20L14%2074%20C11%2075%2c%208%2074%2c%206%2072%20C5%2069%2c%206%2066%2c%208%2064%20L15%2061%20L15%2061%20L9%2060%20L9%2060%20C6%2059%2c%205%2057%2c%206%2054%20C7%2051%2c%209%2049%2c%2012%2050%20L26%2054%20L26%2054%20L38%2048%20L38%2048%20L26%2041%20L26%2041%20L12%2045%20L12%2045%20C9%2046%2c%207%2044%2c%206%2042%20C5%2038%2c%206%2036%2c%209%2035%20L15%2034%20L15%2034%20L8%2031%20L8%2031%20C6%2029%2c%205%2027%2c%206%2024%20C8%2021%2c%2011%2020%2c%2014%2021%20L19%2025%20L19%2025%20L18%2021%20L18%2021%20C17%2017%2c%2018%2015%2c%2021%2014%20C25%2013%2c%2027%2015%2c%2028%2018%20L32%2032%20L32%2032%20L42%2039%20L42%2039%20L42%2026%20L42%2026%20L32%2015%20L32%2015%20C30%2013%2c%2030%2010%2c%2032%208%20C35%206%2c%2037%206%2c%2040%208%20L42%2012%20L42%2012%20L42%204%20L42%204%20C43%201%2c%2045%20%2d1%2c%2048%20%2d1%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#freeze:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M49%200%20C52%20%2d1%2c%2053%201%2c%2054%204%20L54%2012%20L54%2012%20L56%208%20L56%208%20C59%206%2c%2061%206%2c%2064%208%20C66%2010%2c%2066%2013%2c%2064%2015%20L54%2026%20L54%2026%20L54%2039%20L54%2039%20L64%2032%20L64%2032%20L68%2018%20L68%2018%20C69%2015%2c%2071%2014%2c%2075%2014%20C78%2015%2c%2079%2017%2c%2078%2021%20L77%2025%20L77%2025%20L82%2021%20L82%2021%20C85%2020%2c%2088%2021%2c%2090%2024%20C91%2027%2c%2091%2029%2c%2088%2031%20L81%2034%20L81%2034%20L87%2035%20L87%2035%20C90%2036%2c%2091%2038%2c%2091%2041%20C89%2044%2c%2087%2046%2c%2084%2045%20L69%2041%20L69%2041%20L58%2048%20L58%2048%20L69%2054%20L69%2054%20L84%2050%20L84%2050%20C87%2049%2c%2089%2051%2c%2090%2054%20C91%2057%2c%2090%2059%2c%2087%2060%20L81%2061%20L81%2061%20L88%2064%20L88%2064%20C91%2066%2c%2091%2069%2c%2090%2072%20C88%2074%2c%2085%2075%2c%2082%2074%20L77%2070%20L77%2070%20L78%2075%20L78%2075%20C79%2078%2c%2078%2080%2c%2074%2081%20C71%2082%2c%2069%2080%2c%2068%2078%20L64%2063%20L64%2063%20L54%2056%20L54%2056%20L54%2069%20L54%2069%20L64%2080%20L64%2080%20C66%2082%2c%2066%2085%2c%2064%2087%20C61%2089%2c%2059%2089%2c%2056%2087%20L54%2083%20L54%2083%20L54%2091%20L54%2091%20C53%2094%2c%2051%2096%2c%2048%2097%20C45%2096%2c%2043%2094%2c%2042%2091%20L42%2083%20L42%2083%20L40%2087%20L40%2087%20C37%2089%2c%2035%2089%2c%2032%2087%20C30%2085%2c%2030%2082%2c%2032%2080%20L42%2069%20L42%2069%20L42%2056%20L42%2056%20L32%2063%20L32%2063%20L28%2077%20L28%2077%20C27%2080%2c%2025%2082%2c%2021%2081%20C18%2080%2c%2017%2078%2c%2018%2075%20L19%2070%20L19%2070%20L14%2074%20L14%2074%20C11%2075%2c%208%2074%2c%206%2072%20C5%2069%2c%206%2066%2c%208%2064%20L15%2061%20L15%2061%20L9%2060%20L9%2060%20C6%2059%2c%205%2057%2c%206%2054%20C7%2051%2c%209%2049%2c%2012%2050%20L26%2054%20L26%2054%20L38%2048%20L38%2048%20L26%2041%20L26%2041%20L12%2045%20L12%2045%20C9%2046%2c%207%2044%2c%206%2042%20C5%2038%2c%206%2036%2c%209%2035%20L15%2034%20L15%2034%20L8%2031%20L8%2031%20C6%2029%2c%205%2027%2c%206%2024%20C8%2021%2c%2011%2020%2c%2014%2021%20L19%2025%20L19%2025%20L18%2021%20L18%2021%20C17%2017%2c%2018%2015%2c%2021%2014%20C25%2013%2c%2027%2015%2c%2028%2018%20L32%2032%20L32%2032%20L42%2039%20L42%2039%20L42%2026%20L42%2026%20L32%2015%20L32%2015%20C30%2013%2c%2030%2010%2c%2032%208%20C35%206%2c%2037%206%2c%2040%208%20L42%2012%20L42%2012%20L42%204%20L42%204%20C43%201%2c%2045%20%2d1%2c%2048%20%2d1%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#freeze:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M49%200%20C52%20%2d1%2c%2053%201%2c%2054%204%20L54%2012%20L54%2012%20L56%208%20L56%208%20C59%206%2c%2061%206%2c%2064%208%20C66%2010%2c%2066%2013%2c%2064%2015%20L54%2026%20L54%2026%20L54%2039%20L54%2039%20L64%2032%20L64%2032%20L68%2018%20L68%2018%20C69%2015%2c%2071%2014%2c%2075%2014%20C78%2015%2c%2079%2017%2c%2078%2021%20L77%2025%20L77%2025%20L82%2021%20L82%2021%20C85%2020%2c%2088%2021%2c%2090%2024%20C91%2027%2c%2091%2029%2c%2088%2031%20L81%2034%20L81%2034%20L87%2035%20L87%2035%20C90%2036%2c%2091%2038%2c%2091%2041%20C89%2044%2c%2087%2046%2c%2084%2045%20L69%2041%20L69%2041%20L58%2048%20L58%2048%20L69%2054%20L69%2054%20L84%2050%20L84%2050%20C87%2049%2c%2089%2051%2c%2090%2054%20C91%2057%2c%2090%2059%2c%2087%2060%20L81%2061%20L81%2061%20L88%2064%20L88%2064%20C91%2066%2c%2091%2069%2c%2090%2072%20C88%2074%2c%2085%2075%2c%2082%2074%20L77%2070%20L77%2070%20L78%2075%20L78%2075%20C79%2078%2c%2078%2080%2c%2074%2081%20C71%2082%2c%2069%2080%2c%2068%2078%20L64%2063%20L64%2063%20L54%2056%20L54%2056%20L54%2069%20L54%2069%20L64%2080%20L64%2080%20C66%2082%2c%2066%2085%2c%2064%2087%20C61%2089%2c%2059%2089%2c%2056%2087%20L54%2083%20L54%2083%20L54%2091%20L54%2091%20C53%2094%2c%2051%2096%2c%2048%2097%20C45%2096%2c%2043%2094%2c%2042%2091%20L42%2083%20L42%2083%20L40%2087%20L40%2087%20C37%2089%2c%2035%2089%2c%2032%2087%20C30%2085%2c%2030%2082%2c%2032%2080%20L42%2069%20L42%2069%20L42%2056%20L42%2056%20L32%2063%20L32%2063%20L28%2077%20L28%2077%20C27%2080%2c%2025%2082%2c%2021%2081%20C18%2080%2c%2017%2078%2c%2018%2075%20L19%2070%20L19%2070%20L14%2074%20L14%2074%20C11%2075%2c%208%2074%2c%206%2072%20C5%2069%2c%206%2066%2c%208%2064%20L15%2061%20L15%2061%20L9%2060%20L9%2060%20C6%2059%2c%205%2057%2c%206%2054%20C7%2051%2c%209%2049%2c%2012%2050%20L26%2054%20L26%2054%20L38%2048%20L38%2048%20L26%2041%20L26%2041%20L12%2045%20L12%2045%20C9%2046%2c%207%2044%2c%206%2042%20C5%2038%2c%206%2036%2c%209%2035%20L15%2034%20L15%2034%20L8%2031%20L8%2031%20C6%2029%2c%205%2027%2c%206%2024%20C8%2021%2c%2011%2020%2c%2014%2021%20L19%2025%20L19%2025%20L18%2021%20L18%2021%20C17%2017%2c%2018%2015%2c%2021%2014%20C25%2013%2c%2027%2015%2c%2028%2018%20L32%2032%20L32%2032%20L42%2039%20L42%2039%20L42%2026%20L42%2026%20L32%2015%20L32%2015%20C30%2013%2c%2030%2010%2c%2032%208%20C35%206%2c%2037%206%2c%2040%208%20L42%2012%20L42%2012%20L42%204%20L42%204%20C43%201%2c%2045%20%2d1%2c%2048%20%2d1%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#freeze.ui-corner-all
+{
+   border-bottom-left-radius: 100px;
+   border-top-left-radius: 100px;
+}
+#freeze.ui-corner-all
+{
+   border-bottom-right-radius: 100px;
+   border-top-right-radius: 100px;
+}
+#freeze.ui-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DCDCDC;
+   color: #FFFFFF;
+}
+#freeze.ui-state-hover, #freeze.ui-button:hover
+{
+   border-color: #F5F5F5;
+   background-color: #696969;
+   background-image: none;
+   color: #FFFFFF;
+}
+#freeze.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#freeze.ui-state-active, #freeze.ui-button:active
+{
+   border-color: #DCDCDC;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #FFFFFF;
+}
+#withdraw
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#withdraw .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#withdraw .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M24%200%20C21%200%2c%2018%201%2c%2016%204%20L16%204%20L16%204%20C13%206%2c%2012%209%2c%2012%2012%20L12%2084%20L12%2084%20C12%2087%2c%2013%2090%2c%2016%2093%20C18%2095%2c%2021%2096%2c%2024%2096%20L72%2096%20L72%2096%20C75%2096%2c%2078%2095%2c%2080%2093%20C83%2090%2c%2084%2087%2c%2084%2084%20L84%2030%20L84%2030%20L60%2030%20L60%2030%20C58%2030%2c%2057%2030%2c%2056%2028%20C55%2027%2c%2054%2026%2c%2054%2024%20L54%200%20L54%200%20L24%200Z%20%20M60%200%20L60%2024%20L60%200%20L60%2024%20L84%2024%20L84%2024%20L60%200Z%20%20M24%2015%20C24%2013%2c%2025%2012%2c%2027%2012%20L39%2012%20L39%2012%20C41%2012%2c%2042%2013%2c%2042%2015%20C42%2017%2c%2041%2018%2c%2039%2018%20L27%2018%20L27%2018%20C25%2018%2c%2024%2017%2c%2024%2015%20Z%20M24%2027%20C24%2025%2c%2025%2024%2c%2027%2024%20L39%2024%20L39%2024%20C41%2024%2c%2042%2025%2c%2042%2027%20C42%2029%2c%2041%2030%2c%2039%2030%20L27%2030%20L27%2030%20C25%2030%2c%2024%2029%2c%2024%2027%20Z%20M48%2041%20C50%2041%2c%2051%2042%2c%2051%2044%20L51%2047%20L51%2047%20C53%2047%2c%2054%2047%2c%2055%2048%20C57%2048%2c%2058%2050%2c%2058%2051%20C57%2053%2c%2056%2054%2c%2054%2054%20C52%2053%2c%2050%2053%2c%2048%2053%20C46%2053%2c%2045%2053%2c%2043%2054%20C42%2054%2c%2042%2055%2c%2042%2056%20C42%2057%2c%2042%2057%2c%2043%2058%20C45%2059%2c%2047%2059%2c%2049%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20C49%2060%2c%2049%2060%2c%2049%2060%20C51%2061%2c%2053%2061%2c%2056%2063%20C58%2064%2c%2060%2066%2c%2060%2070%20C60%2073%2c%2058%2076%2c%2056%2078%20C54%2079%2c%2053%2079%2c%2051%2079%20L51%2083%20L51%2083%20C51%2084%2c%2050%2085%2c%2048%2086%20C46%2085%2c%2045%2084%2c%2045%2083%20L45%2079%20L45%2079%20C43%2079%2c%2041%2078%2c%2039%2078%20L39%2078%20L39%2078%20L39%2078%20L39%2078%20C39%2077%2c%2038%2077%2c%2038%2077%20C36%2076%2c%2036%2075%2c%2036%2073%20C37%2072%2c%2038%2071%2c%2040%2072%20C40%2072%2c%2041%2072%2c%2041%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20C44%2073%2c%2046%2073%2c%2048%2074%20C50%2074%2c%2051%2073%2c%2052%2073%20C53%2072%2c%2054%2071%2c%2054%2070%20C54%2069%2c%2053%2068%2c%2052%2068%20C51%2067%2c%2049%2066%2c%2047%2066%20L47%2066%20L47%2066%20L47%2066%20L47%2066%20C45%2065%2c%2042%2064%2c%2040%2063%20C38%2062%2c%2036%2059%2c%2036%2056%20C36%2052%2c%2038%2050%2c%2040%2048%20C42%2048%2c%2043%2047%2c%2045%2047%20L45%2044%20L45%2044%20C45%2042%2c%2046%2041%2c%2048%2041%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 11px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#withdraw:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M24%200%20C21%200%2c%2018%201%2c%2016%204%20L16%204%20L16%204%20C13%206%2c%2012%209%2c%2012%2012%20L12%2084%20L12%2084%20C12%2087%2c%2013%2090%2c%2016%2093%20C18%2095%2c%2021%2096%2c%2024%2096%20L72%2096%20L72%2096%20C75%2096%2c%2078%2095%2c%2080%2093%20C83%2090%2c%2084%2087%2c%2084%2084%20L84%2030%20L84%2030%20L60%2030%20L60%2030%20C58%2030%2c%2057%2030%2c%2056%2028%20C55%2027%2c%2054%2026%2c%2054%2024%20L54%200%20L54%200%20L24%200Z%20%20M60%200%20L60%2024%20L60%200%20L60%2024%20L84%2024%20L84%2024%20L60%200Z%20%20M24%2015%20C24%2013%2c%2025%2012%2c%2027%2012%20L39%2012%20L39%2012%20C41%2012%2c%2042%2013%2c%2042%2015%20C42%2017%2c%2041%2018%2c%2039%2018%20L27%2018%20L27%2018%20C25%2018%2c%2024%2017%2c%2024%2015%20Z%20M24%2027%20C24%2025%2c%2025%2024%2c%2027%2024%20L39%2024%20L39%2024%20C41%2024%2c%2042%2025%2c%2042%2027%20C42%2029%2c%2041%2030%2c%2039%2030%20L27%2030%20L27%2030%20C25%2030%2c%2024%2029%2c%2024%2027%20Z%20M48%2041%20C50%2041%2c%2051%2042%2c%2051%2044%20L51%2047%20L51%2047%20C53%2047%2c%2054%2047%2c%2055%2048%20C57%2048%2c%2058%2050%2c%2058%2051%20C57%2053%2c%2056%2054%2c%2054%2054%20C52%2053%2c%2050%2053%2c%2048%2053%20C46%2053%2c%2045%2053%2c%2043%2054%20C42%2054%2c%2042%2055%2c%2042%2056%20C42%2057%2c%2042%2057%2c%2043%2058%20C45%2059%2c%2047%2059%2c%2049%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20C49%2060%2c%2049%2060%2c%2049%2060%20C51%2061%2c%2053%2061%2c%2056%2063%20C58%2064%2c%2060%2066%2c%2060%2070%20C60%2073%2c%2058%2076%2c%2056%2078%20C54%2079%2c%2053%2079%2c%2051%2079%20L51%2083%20L51%2083%20C51%2084%2c%2050%2085%2c%2048%2086%20C46%2085%2c%2045%2084%2c%2045%2083%20L45%2079%20L45%2079%20C43%2079%2c%2041%2078%2c%2039%2078%20L39%2078%20L39%2078%20L39%2078%20L39%2078%20C39%2077%2c%2038%2077%2c%2038%2077%20C36%2076%2c%2036%2075%2c%2036%2073%20C37%2072%2c%2038%2071%2c%2040%2072%20C40%2072%2c%2041%2072%2c%2041%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20C44%2073%2c%2046%2073%2c%2048%2074%20C50%2074%2c%2051%2073%2c%2052%2073%20C53%2072%2c%2054%2071%2c%2054%2070%20C54%2069%2c%2053%2068%2c%2052%2068%20C51%2067%2c%2049%2066%2c%2047%2066%20L47%2066%20L47%2066%20L47%2066%20L47%2066%20C45%2065%2c%2042%2064%2c%2040%2063%20C38%2062%2c%2036%2059%2c%2036%2056%20C36%2052%2c%2038%2050%2c%2040%2048%20C42%2048%2c%2043%2047%2c%2045%2047%20L45%2044%20L45%2044%20C45%2042%2c%2046%2041%2c%2048%2041%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#withdraw:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M24%200%20C21%200%2c%2018%201%2c%2016%204%20L16%204%20L16%204%20C13%206%2c%2012%209%2c%2012%2012%20L12%2084%20L12%2084%20C12%2087%2c%2013%2090%2c%2016%2093%20C18%2095%2c%2021%2096%2c%2024%2096%20L72%2096%20L72%2096%20C75%2096%2c%2078%2095%2c%2080%2093%20C83%2090%2c%2084%2087%2c%2084%2084%20L84%2030%20L84%2030%20L60%2030%20L60%2030%20C58%2030%2c%2057%2030%2c%2056%2028%20C55%2027%2c%2054%2026%2c%2054%2024%20L54%200%20L54%200%20L24%200Z%20%20M60%200%20L60%2024%20L60%200%20L60%2024%20L84%2024%20L84%2024%20L60%200Z%20%20M24%2015%20C24%2013%2c%2025%2012%2c%2027%2012%20L39%2012%20L39%2012%20C41%2012%2c%2042%2013%2c%2042%2015%20C42%2017%2c%2041%2018%2c%2039%2018%20L27%2018%20L27%2018%20C25%2018%2c%2024%2017%2c%2024%2015%20Z%20M24%2027%20C24%2025%2c%2025%2024%2c%2027%2024%20L39%2024%20L39%2024%20C41%2024%2c%2042%2025%2c%2042%2027%20C42%2029%2c%2041%2030%2c%2039%2030%20L27%2030%20L27%2030%20C25%2030%2c%2024%2029%2c%2024%2027%20Z%20M48%2041%20C50%2041%2c%2051%2042%2c%2051%2044%20L51%2047%20L51%2047%20C53%2047%2c%2054%2047%2c%2055%2048%20C57%2048%2c%2058%2050%2c%2058%2051%20C57%2053%2c%2056%2054%2c%2054%2054%20C52%2053%2c%2050%2053%2c%2048%2053%20C46%2053%2c%2045%2053%2c%2043%2054%20C42%2054%2c%2042%2055%2c%2042%2056%20C42%2057%2c%2042%2057%2c%2043%2058%20C45%2059%2c%2047%2059%2c%2049%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20L49%2060%20C49%2060%2c%2049%2060%2c%2049%2060%20C51%2061%2c%2053%2061%2c%2056%2063%20C58%2064%2c%2060%2066%2c%2060%2070%20C60%2073%2c%2058%2076%2c%2056%2078%20C54%2079%2c%2053%2079%2c%2051%2079%20L51%2083%20L51%2083%20C51%2084%2c%2050%2085%2c%2048%2086%20C46%2085%2c%2045%2084%2c%2045%2083%20L45%2079%20L45%2079%20C43%2079%2c%2041%2078%2c%2039%2078%20L39%2078%20L39%2078%20L39%2078%20L39%2078%20C39%2077%2c%2038%2077%2c%2038%2077%20C36%2076%2c%2036%2075%2c%2036%2073%20C37%2072%2c%2038%2071%2c%2040%2072%20C40%2072%2c%2041%2072%2c%2041%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20L41%2072%20C41%2072%2c%2041%2072%2c%2041%2072%20C44%2073%2c%2046%2073%2c%2048%2074%20C50%2074%2c%2051%2073%2c%2052%2073%20C53%2072%2c%2054%2071%2c%2054%2070%20C54%2069%2c%2053%2068%2c%2052%2068%20C51%2067%2c%2049%2066%2c%2047%2066%20L47%2066%20L47%2066%20L47%2066%20L47%2066%20C45%2065%2c%2042%2064%2c%2040%2063%20C38%2062%2c%2036%2059%2c%2036%2056%20C36%2052%2c%2038%2050%2c%2040%2048%20C42%2048%2c%2043%2047%2c%2045%2047%20L45%2044%20L45%2044%20C45%2042%2c%2046%2041%2c%2048%2041%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#withdraw.ui-corner-all
+{
+   border-bottom-left-radius: 100px;
+   border-top-left-radius: 100px;
+}
+#withdraw.ui-corner-all
+{
+   border-bottom-right-radius: 100px;
+   border-top-right-radius: 100px;
+}
+#withdraw.ui-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #DCDCDC;
+   color: #FFFFFF;
+}
+#withdraw.ui-state-hover, #withdraw.ui-button:hover
+{
+   border-color: #F5F5F5;
+   background-color: #696969;
+   background-image: none;
+   color: #FFFFFF;
+}
+#withdraw.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#withdraw.ui-state-active, #withdraw.ui-button:active
+{
+   border-color: #DCDCDC;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Add
+{
+   margin: 0;
+   border: 0px solid #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Add:focus
+{
+   outline: 0;
+}
+#Freeze
+{
+   margin: 0;
+   border: 0px solid #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Freeze:focus
+{
+   outline: 0;
+}
+#Withdraw
+{
+   margin: 0;
+   border: 0px solid #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Withdraw:focus
+{
+   outline: 0;
+}
+#Unfreeze
+{
+   margin: 0;
+   border: 0px solid #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Unfreeze:focus
+{
+   outline: 0;
+}
+#Active
+{
+   background-color: transparent;
+   background-image: url('images/unfreeze.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+   border-radius: 0px;
+}
+#Frozen
+{
+   background-color: transparent;
+   background-image: url('images/frozen.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+   border-radius: 0px;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10 div
+{
+   text-align: left;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11 div
+{
+   text-align: left;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#Layer15
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer16
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border-radius: 15px;
+}
+#Label9
+{
+   margin: 0;
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 16px;
+   text-align: left;
+   vertical-align: top;
+   padding: 4px 4px 4px 4px;
+}
+#Label9:focus
+{
+   outline: 0;
+}
+#ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1 .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M60%2073%20C66%2073%2c%2072%2071%2c%2077%2067%20L85%2075%20C78%2082%2c%2070%2085%2c%2060%2085%20C52%2085%2c%2045%2083%2c%2038%2078%20C32%2073%2c%2028%2068%2c%2025%2061%20L11%2061%20L11%2051%20L23%2051%20C23%2051%2c%2023%2050%2c%2023%2048%20C23%2046%2c%2023%2045%2c%2023%2045%20L11%2045%20L11%2035%20L25%2035%20C28%2028%2c%2032%2023%2c%2038%2018%20C45%2013%2c%2052%2011%2c%2060%2011%20C64%2011%2c%2068%2012%2c%2073%2014%20C78%2016%2c%2082%2018%2c%2085%2021%20L77%2029%20C72%2025%2c%2066%2023%2c%2060%2023%20C56%2023%2c%2052%2024%2c%2047%2027%20C43%2030%2c%2040%2032%2c%2038%2035%20L61%2035%20L61%2045%20L35%2045%20C35%2046%2c%2035%2047%2c%2035%2048%20C35%2049%2c%2035%2050%2c%2035%2051%20L61%2051%20L61%2061%20L38%2061%20C40%2064%2c%2043%2067%2c%2047%2069%20C52%2072%2c%2056%2073%2c%2060%2073%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#ThemeableButton1:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M60%2073%20C66%2073%2c%2072%2071%2c%2077%2067%20L85%2075%20C78%2082%2c%2070%2085%2c%2060%2085%20C52%2085%2c%2045%2083%2c%2038%2078%20C32%2073%2c%2028%2068%2c%2025%2061%20L11%2061%20L11%2051%20L23%2051%20C23%2051%2c%2023%2050%2c%2023%2048%20C23%2046%2c%2023%2045%2c%2023%2045%20L11%2045%20L11%2035%20L25%2035%20C28%2028%2c%2032%2023%2c%2038%2018%20C45%2013%2c%2052%2011%2c%2060%2011%20C64%2011%2c%2068%2012%2c%2073%2014%20C78%2016%2c%2082%2018%2c%2085%2021%20L77%2029%20C72%2025%2c%2066%2023%2c%2060%2023%20C56%2023%2c%2052%2024%2c%2047%2027%20C43%2030%2c%2040%2032%2c%2038%2035%20L61%2035%20L61%2045%20L35%2045%20C35%2046%2c%2035%2047%2c%2035%2048%20C35%2049%2c%2035%2050%2c%2035%2051%20L61%2051%20L61%2061%20L38%2061%20C40%2064%2c%2043%2067%2c%2047%2069%20C52%2072%2c%2056%2073%2c%2060%2073%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton1:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M60%2073%20C66%2073%2c%2072%2071%2c%2077%2067%20L85%2075%20C78%2082%2c%2070%2085%2c%2060%2085%20C52%2085%2c%2045%2083%2c%2038%2078%20C32%2073%2c%2028%2068%2c%2025%2061%20L11%2061%20L11%2051%20L23%2051%20C23%2051%2c%2023%2050%2c%2023%2048%20C23%2046%2c%2023%2045%2c%2023%2045%20L11%2045%20L11%2035%20L25%2035%20C28%2028%2c%2032%2023%2c%2038%2018%20C45%2013%2c%2052%2011%2c%2060%2011%20C64%2011%2c%2068%2012%2c%2073%2014%20C78%2016%2c%2082%2018%2c%2085%2021%20L77%2029%20C72%2025%2c%2066%2023%2c%2060%2023%20C56%2023%2c%2052%2024%2c%2047%2027%20C43%2030%2c%2040%2032%2c%2038%2035%20L61%2035%20L61%2045%20L35%2045%20C35%2046%2c%2035%2047%2c%2035%2048%20C35%2049%2c%2035%2050%2c%2035%2051%20L61%2051%20L61%2061%20L38%2061%20C40%2064%2c%2043%2067%2c%2047%2069%20C52%2072%2c%2056%2073%2c%2060%2073%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+}
+#ThemeableButton1.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 1px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#ThemeableButton2 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton2 .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M48%205%20L87%2026%20L87%2035%20L9%2035%20L9%2026Z%20%20M65%2041%20L79%2041%20L79%2071%20L65%2071Z%20%20M9%2091%20L9%2077%20L87%2077%20L87%2091Z%20%20M41%2041%20L55%2041%20L55%2071%20L41%2071Z%20%20M17%2041%20L31%2041%20L31%2071%20L17%2071Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#ThemeableButton2:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M48%205%20L87%2026%20L87%2035%20L9%2035%20L9%2026Z%20%20M65%2041%20L79%2041%20L79%2071%20L65%2071Z%20%20M9%2091%20L9%2077%20L87%2077%20L87%2091Z%20%20M41%2041%20L55%2041%20L55%2071%20L41%2071Z%20%20M17%2041%20L31%2041%20L31%2071%20L17%2071Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton2:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M48%205%20L87%2026%20L87%2035%20L9%2035%20L9%2026Z%20%20M65%2041%20L79%2041%20L79%2071%20L65%2071Z%20%20M9%2091%20L9%2077%20L87%2077%20L87%2091Z%20%20M41%2041%20L55%2041%20L55%2071%20L41%2071Z%20%20M17%2041%20L31%2041%20L31%2071%20L17%2071Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton2.ui-corner-all
+{
+   border-bottom-left-radius: 15px;
+   border-top-left-radius: 15px;
+}
+#ThemeableButton2.ui-corner-all
+{
+   border-bottom-right-radius: 15px;
+   border-top-right-radius: 15px;
+}
+#ThemeableButton2.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 1px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#ThemeableButton2.ui-state-hover, #ThemeableButton2.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton2.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#ThemeableButton2.ui-state-active, #ThemeableButton2.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: justify;
+   vertical-align: top;
+}
+#ThemeableButton3 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton3 .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M77%2026%20L55%2048%20L77%2070%20L70%2077%20L48%2055%20L26%2077%20L19%2070%20L41%2048%20L19%2026%20L26%2019%20L48%2042%20L70%2019Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 24px;
+   height: 24px;
+}
+#ThemeableButton3:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M77%2026%20L55%2048%20L77%2070%20L70%2077%20L48%2055%20L26%2077%20L19%2070%20L41%2048%20L19%2026%20L26%2019%20L48%2042%20L70%2019Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton3:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2096%2096%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M77%2026%20L55%2048%20L77%2070%20L70%2077%20L48%2055%20L26%2077%20L19%2070%20L41%2048%20L19%2026%20L26%2019%20L48%2042%20L70%2019Z%20%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton3.ui-corner-all
+{
+   border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
+}
+#ThemeableButton3.ui-corner-all
+{
+   border-bottom-right-radius: 50px;
+   border-top-right-radius: 50px;
+}
+#ThemeableButton3.ui-button
+{
+   background-color: #808080;
+   background-image: none;
+   border: 1px solid #808080;
+   color: #FFFFFF;
+}
+#ThemeableButton3.ui-state-hover, #ThemeableButton3.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton3.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#ThemeableButton3.ui-state-active, #ThemeableButton3.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
 #wb_Form2
 {
    background-color: transparent;
@@ -595,7 +1972,7 @@ body
 {
    display: inline-block;
    margin: 0;
-   padding: 0px 0px 5px 0px;
+   padding: 0px 0px 10px 0px;
    width: 100%;
 }
 #wb_CssMenu1 a
@@ -617,17 +1994,17 @@ body
 }
 #wb_CssMenu1 > ul > li > a
 {
-   width: calc(100% - 5px);
+   width: calc(100% - 10px);
    box-sizing: border-box;
-   height: 33px;
+   height: 35px;
    padding: 0 5px 0px 0px;
-   line-height: 33px;
+   line-height: 35px;
 }
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover, #wb_CssMenu1 .active
 {
    color: #FFFFFF;
    border: 0px solid #0A58CA;
-   background-color: #A9C7F3;
+   background-color: #528FEB;
    background-image: none;
 }
 #wb_CssMenu1 .firstmain a

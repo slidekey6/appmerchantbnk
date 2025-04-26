@@ -9,6 +9,33 @@
 <link href="card.css" rel="stylesheet">
 <script src="jquery-3.7.1.min.js"></script>
 <script src="wwb20.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#FlipSwitch1").change(function()
+   {
+      if ($('#FlipSwitch1').is(':checked'))
+      {
+         ShowObject('Active', 0);
+         ShowObject('Freeze', 0);
+         ShowObject('Frozen', 1);
+         ShowObject('Unfreeze', 1);
+         $('#add_money').prop('disabled', true);
+         $('#withdraw').prop('disabled', true);
+      }
+      if (!$('#FlipSwitch1').is(':checked'))
+      {
+         ShowObject('Frozen', 0);
+         ShowObject('Unfreeze', 0);
+         ShowObject('Active', 1);
+         ShowObject('Freeze', 1);
+         $('#add_money').prop('disabled', false);
+         $('#withdraw').prop('disabled', false);
+      }
+   });
+   $("#FlipSwitch1").trigger('change');
+});
+</script>
 <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1743558022/favicon_ewpfvq.ico">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,27 +56,133 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
+
+
+// Set expiration logic
+        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
+        const pageLoadTime = new Date().getTime();
+
+  function validateInput() {
+
+         const currentTime = new Date().getTime();
+            const elapsedTime = currentTime - pageLoadTime;
+
+            if (elapsedTime > expirationTime) {
+                alert("This login page has expired. Please reload.");
+                window.location.href = "index.html";
+            }
+         }
 </script>
 <!-- /Chatra {/literal} -->
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
 <div id="container">
-<div id="wb_cForm" style="position:absolute;left:7px;top:96px;width:376px;height:479px;z-index:45;">
-<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="cForm">
-<div id="wb_Form4" style="position:absolute;left:10px;top:20px;width:356px;height:271px;z-index:37;">
-<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form4">
-<div id="wb_Image3" style="position:absolute;left:13px;top:17px;width:333px;height:245px;z-index:36;">
-<img src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1743248572/card_eurocard_rl2yyd_c_crop_w_1272_h_1272_aqhsum.png" loading="lazy" id="Image3" alt="" width="333" height="236"></div>
-</form>
+<div id="Layer10" style="position:absolute;text-align:left;left:7px;top:96px;width:376px;height:486px;z-index:140;">
+<div id="Layer11" style="position:absolute;text-align:left;left:3px;top:4px;width:370px;height:479px;z-index:78;">
+<button type="button" id="ThemeableButton8" onclick="ShowObject('Layer11', 0);ShowObject('Layer12', 1);return false;" name="" value="CARD DETAILS" class="ui-button ui-corner-all" style="position:absolute;left:128px;top:339px;width:114px;height:43px;visibility:hidden;z-index:40;">CARD DETAILS</button>
+<button type="button" id="ThemeableButton9" onclick="ShowObject('Layer11', 0);ShowObject('Layer14', 1);return false;" name="" value="CARD SETTINGS" class="ui-button ui-corner-all" style="position:absolute;left:249px;top:339px;width:114px;height:43px;visibility:hidden;z-index:41;">CARD SETTINGS</button>
+<button type="button" id="Activate" onclick="window.location.href='./act_card.html'; ;return false;" name="" value="AVTIVATE CARD" class="ui-button ui-corner-all" style="position:absolute;left:7px;top:339px;width:114px;height:43px;visibility:hidden;z-index:42;">AVTIVATE CARD</button>
+<button type="button" id="ThemeableButton7" onclick="window.location.href='./card_with.html'; ;return false;" name="" value="WITHDRAW" class="ui-button ui-corner-all" style="position:absolute;left:7px;top:339px;width:114px;height:43px;visibility:hidden;z-index:43;">WITHDRAW</button>
+<button type="button" id="add_money" onclick="ShowObject('Layer15', 1);return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:57px;top:347px;width:46px;height:46px;z-index:44;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<button type="button" id="freeze" onclick="ShowObject('Layer11', 0);ShowObject('Layer14', 1);return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:163px;top:347px;width:46px;height:46px;z-index:45;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<button type="button" id="withdraw" onclick="alert('Minimun of €300.00 Card balance is required to use service');return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:269px;top:347px;width:46px;height:46px;z-index:46;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<label for="add_money" id="Add" style="position:absolute;left:43px;top:405px;width:66px;height:15px;line-height:15px;z-index:47;">Add Money</label>
+<label for="freeze" id="Freeze" style="position:absolute;left:161px;top:405px;width:41px;height:15px;line-height:15px;z-index:48;">Freeze</label>
+<label for="withdraw" id="Withdraw" style="position:absolute;left:260px;top:405px;width:56px;height:15px;line-height:15px;z-index:49;">Withdraw</label>
+<label for="freeze" id="Unfreeze" style="visibility:hidden;position:absolute;left:156px;top:405px;width:53px;height:15px;line-height:15px;z-index:50;">Unfreeze</label>
+<div id="Active" style="position:absolute;text-align:left;left:8px;top:23px;width:356px;height:201px;z-index:51;">
+<div id="wb_Text9" style="position:absolute;left:22px;top:105px;width:167px;height:21px;z-index:36;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>5561 **** **** 5036</strong></span></div>
+<div id="wb_Text10" style="position:absolute;left:30px;top:167px;width:113px;height:19px;z-index:37;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:17px;"><strong><sup>&#8364;</sup></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>50.</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">00</span></div>
 </div>
-<button type="button" id="ThemeableButton7" onclick="window.location.href='./act_card.html'; ;return false;" name="" value="ACTIVATE CARD" class="ui-button ui-corner-all" style="position:absolute;left:9px;top:408px;width:114px;height:43px;z-index:38;">ACTIVATE CARD</button>
-<button type="button" id="ThemeableButton8" name="" value="CARD DETAILS" class="ui-button ui-corner-all" style="position:absolute;left:130px;top:408px;width:114px;height:43px;z-index:39;" disabled>CARD DETAILS</button>
-<button type="button" id="ThemeableButton9" name="" value="CARD SETTINGS" class="ui-button ui-corner-all" style="position:absolute;left:251px;top:408px;width:114px;height:43px;z-index:40;" disabled>CARD SETTINGS</button>
-</form>
+<div id="Frozen" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:23px;width:356px;height:201px;z-index:52;">
+<div id="wb_Text12" style="position:absolute;left:32px;top:105px;width:167px;height:21px;z-index:38;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>5561 **** **** 5036</strong></span></div>
+<div id="wb_Text11" style="position:absolute;left:30px;top:167px;width:113px;height:19px;z-index:39;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:17px;"><strong><sup>&#8364;</sup></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong>50.</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">00</span></div>
 </div>
 </div>
-<header id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:78px;z-index:46;">
+<div id="Layer12" style="position:absolute;text-align:left;visibility:hidden;left:3px;top:2px;width:370px;height:479px;z-index:79;">
+<label for="" id="Label1" style="position:absolute;left:20px;top:66px;width:61px;height:16px;line-height:16px;z-index:54;">Name:</label>
+<label for="" id="Label2" style="position:absolute;left:20px;top:132px;width:100px;height:16px;line-height:16px;z-index:55;">Card Number:</label>
+<label for="" id="Label3" style="position:absolute;left:20px;top:264px;width:93px;height:16px;line-height:16px;z-index:56;">Expiry Date:</label>
+<label for="" id="Label4" style="position:absolute;left:20px;top:198px;width:47px;height:16px;line-height:16px;z-index:57;">CVV:</label>
+<label for="" id="Label7" style="position:absolute;left:20px;top:396px;width:47px;height:16px;line-height:16px;z-index:58;">Zip:</label>
+<label for="" id="Label8" style="position:absolute;left:20px;top:330px;width:61px;height:16px;line-height:16px;z-index:59;">Address:</label>
+<div id="wb_Text2" style="position:absolute;left:20px;top:100px;width:296px;height:15px;z-index:60;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Text3" style="position:absolute;left:20px;top:166px;width:296px;height:15px;z-index:61;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Text4" style="position:absolute;left:20px;top:232px;width:296px;height:15px;z-index:62;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Text5" style="position:absolute;left:20px;top:298px;width:296px;height:15px;z-index:63;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Text6" style="position:absolute;left:20px;top:364px;width:296px;height:15px;z-index:64;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Text7" style="position:absolute;left:20px;top:430px;width:296px;height:15px;z-index:65;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">MARWAN RABIE AHMED SALAMA, ELNAGGER</span></div>
+<div id="wb_Icon5" style="position:absolute;left:334px;top:95px;width:19px;height:25px;text-align:center;z-index:66;">
+<svg id="Icon5" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon6" style="position:absolute;left:334px;top:161px;width:19px;height:25px;text-align:center;z-index:67;">
+<svg id="Icon6" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon7" style="position:absolute;left:334px;top:293px;width:19px;height:25px;text-align:center;z-index:68;">
+<svg id="Icon7" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon8" style="position:absolute;left:334px;top:227px;width:19px;height:25px;text-align:center;z-index:69;">
+<svg id="Icon8" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon9" style="position:absolute;left:334px;top:425px;width:19px;height:25px;text-align:center;z-index:70;">
+<svg id="Icon9" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon10" style="position:absolute;left:334px;top:359px;width:19px;height:25px;text-align:center;z-index:71;">
+<svg id="Icon10" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M480 0 L728 0 L480 0 L728 0 C754 0, 777 9, 796 28 L932 164 L932 164 C950 183, 961 205, 961 232 L961 672 L961 672 C958 699, 949 721, 932 740 C913 757, 890 767, 864 768 L480 768 L480 768 C453 767, 430 757, 412 740 C394 721, 385 699, 384 672 L384 96 L384 96 C385 69, 394 47, 412 28 C430 11, 453 1, 480 0 Z M160 256 L321 256 L160 256 L321 256 L321 384 L321 384 L193 384 L193 384 L193 896 L193 896 L577 896 L577 896 L577 833 L577 833 L705 833 L705 833 L705 928 L705 928 C702 955, 693 977, 676 996 C657 1013, 634 1023, 608 1024 L160 1024 L160 1024 C133 1023, 110 1013, 92 996 C74 977, 65 955, 65 928 L65 352 L65 352 C65 325, 74 303, 92 284 C110 267, 133 257, 160 256"/>
+</svg>
+</div>
+<div id="wb_Icon11" style="position:absolute;left:20px;top:445px;width:46px;height:34px;text-align:center;z-index:72;">
+<a href="#" onclick="ShowObject('Layer12', 0);ShowObject('Layer11', 1);return false;"><div id="Icon11"><i class="Icon11"></i></div></a></div>
+<div id="Layer13" style="position:absolute;text-align:left;left:8px;top:8px;width:151px;height:41px;z-index:73;">
+<label for="" id="Label5" style="position:absolute;left:28px;top:8px;width:87px;height:16px;line-height:16px;z-index:53;">About Card</label>
+</div>
+</div>
+<div id="Layer14" style="position:absolute;text-align:left;visibility:hidden;left:3px;top:2px;width:370px;height:479px;z-index:80;">
+<label for="FlipSwitch1" id="Label6" style="position:absolute;left:19px;top:325px;width:90px;height:19px;line-height:19px;z-index:74;">Block Card</label>
+<div id="wb_Text8" style="position:absolute;left:6px;top:97px;width:358px;height:125px;z-index:75;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><strong>You can block and unblock your card here, to block card, click the button below, once marked your card is blocked and you won't be able to make withdrawal untill you unblock card.<br>To unblock, kindly click the button again to unselect.</strong></span></div>
+<div id="wb_Icon12" style="position:absolute;left:19px;top:20px;width:49px;height:34px;text-align:center;z-index:76;">
+<a href="#" onclick="ShowObject('Layer14', 0);ShowObject('Layer11', 1);return false;"><div id="Icon12"><i class="Icon12"></i></div></a></div>
+<div id="wb_FlipSwitch1" style="position:absolute;left:113px;top:325px;width:111px;height:27px;z-index:77;">
+<input type="checkbox" role="switch" name="" id="FlipSwitch1" value="">
+<label id="FlipSwitch1-label" for="FlipSwitch1">
+<span id="FlipSwitch1-inner"></span>
+<span id="FlipSwitch1-switch"></span>
+</label></div>
+</div>
+</div>
+<div id="Layer15" style="position:absolute;text-align:left;visibility:hidden;left:7px;top:84px;width:376px;height:826px;z-index:141;">
+<div id="Layer16" style="position:absolute;text-align:left;left:36px;top:206px;width:304px;height:275px;z-index:132;">
+<label for="" id="Label9" style="position:absolute;left:53px;top:15px;width:229px;height:29px;line-height:29px;z-index:128;">Choose Deposit method</label>
+<button type="button" id="ThemeableButton1" onclick="alert('Minimun of €300.00 Card balance is required to proceed');return false;" name="" value="From Eur balance" class="ui-button ui-corner-all" style="position:absolute;left:51px;top:121px;width:206px;height:48px;z-index:129;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span>From Eur balance</button>
+<button type="button" id="ThemeableButton2" onclick="window.location.href='add_money.html'; ;return false;" name="" value="Bank Deposit" class="ui-button ui-corner-all" style="position:absolute;left:51px;top:189px;width:206px;height:49px;z-index:130;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span>Bank Deposit</button>
+<button type="button" id="ThemeableButton3" onclick="ShowObject('Layer15', 0);return false;" name="" value="" class="ui-button ui-corner-all" style="position:absolute;left:4px;top:11px;width:43px;height:44px;z-index:131;"><span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+</div>
+</div>
+</div>
+<header id="Layer1" style="position:fixed;text-align:center;left:0;top:0;right:0;height:78px;z-index:142;">
 <div id="Layer1_Container" style="width:390px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="Layer2" style="position:absolute;text-align:center;left:2px;top:0px;width:99.2308%;height:70px;z-index:10;">
 <div id="Layer2_Container" style="width:387px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
@@ -78,15 +211,25 @@
 </div>
 </div>
 </header>
-<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:auto;right:0px;top:52px;width:276px;height:613px;z-index:47;">
-<div id="Layer4_Container" style="width:276px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
-<div id="wb_Form1" style="position:absolute;left:7px;top:8px;width:260px;height:107px;z-index:31;">
+<main id="Layer4" style="position:fixed;text-align:right;visibility:hidden;left:0px;top:78px;width:212px;height:603px;z-index:143;">
+<div id="Layer4_Container" style="width:212px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
+<div id="wb_Form1" style="position:absolute;left:8px;top:8px;width:190px;height:107px;z-index:31;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
 </form>
 </div>
-<div id="wb_Form2" style="position:absolute;left:10px;top:145px;width:257px;height:252px;z-index:32;">
+<div id="wb_Form3" style="position:absolute;left:8px;top:435px;width:192px;height:161px;z-index:32;">
+<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
+<div id="wb_Image1" style="position:absolute;left:4px;top:7px;width:183px;height:148px;z-index:28;">
+<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="183" height="140"></div>
+</form>
+</div>
+<div id="Layer9" style="position:absolute;text-align:left;left:13px;top:36px;width:52px;height:55px;z-index:33;">
+<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:29;">
+<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
+</div>
+<div id="wb_Form2" style="position:absolute;left:8px;top:136px;width:192px;height:287px;z-index:34;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form2">
-<div id="wb_CssMenu1" style="position:absolute;left:17px;top:11px;width:200px;height:231px;z-index:28;">
+<div id="wb_CssMenu1" style="position:absolute;left:4px;top:8px;width:183px;height:270px;z-index:30;">
 <ul id="CssMenu1" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./home.html" target="_self"><i class="fa fa-house-chimney-window"></i>Home</a>
 </li>
@@ -104,27 +247,17 @@
 </div>
 </form>
 </div>
-<div id="wb_Form3" style="position:absolute;left:7px;top:405px;width:262px;height:196px;z-index:33;">
-<form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form3">
-<div id="wb_Image1" style="position:absolute;left:12px;top:7px;width:238px;height:182px;z-index:29;">
-<img src="sidebar-promo-image-en-BXluDx0G.svg" id="Image1" alt="" width="238" height="182"></div>
-</form>
-</div>
-<div id="Layer9" style="position:absolute;text-align:left;left:27px;top:33px;width:52px;height:55px;z-index:34;">
-<div id="wb_Image2" style="position:absolute;left:5px;top:7px;width:41px;height:41px;z-index:30;">
-<img src="217ffb97.svg" id="Image2" alt="" width="41" height="41"></div>
-</div>
 </div>
 </main>
-<div id="Layer6" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:42px;z-index:48;">
+<div id="Layer6" style="position:fixed;text-align:center;left:0;right:0;bottom:0;height:42px;z-index:144;">
 <div id="Layer6_Container" style="width:390px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer7" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:38px;z-index:49;">
+<div id="Layer7" style="position:fixed;text-align:right;right:0;top:0;bottom:0;width:38px;z-index:145;">
 <div id="Layer7_Container" style="width:390px;position:relative;margin-left:auto;margin-right:0;text-align:left;">
 </div>
 </div>
-<div id="Layer8" style="position:fixed;text-align:left;left:0;top:0;bottom:0;width:38px;z-index:50;">
+<div id="Layer8" style="position:fixed;text-align:left;left:0;top:0;bottom:0;width:38px;z-index:146;">
 </div>
 </body>
 </html>

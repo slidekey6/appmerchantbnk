@@ -1,0 +1,291 @@
+div#container
+{
+   width: 390px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #CCCCCC;
+   border-radius: 15px;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#HorizontalLine1
+{
+   border-color: #696969;
+   border-style: dotted;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#Layer2
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 0px;
+}
+#ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1 .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2064%2064%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M36%204%20C36%203%2c%2035%202%2c%2035%202%20L35%202%20L35%202%20C34%201%2c%2033%200%2c%2032%200%20C30%200%2c%2030%201%2c%2029%202%20C28%202%2c%2028%203%2c%2028%204%20L28%2035%20L28%2035%20L19%2026%20L19%2026%20C18%2025%2c%2017%2024%2c%2016%2024%20C15%2024%2c%2014%2025%2c%2013%2026%20C12%2026%2c%2012%2027%2c%2012%2028%20C12%2029%2c%2012%2030%2c%2013%2031%20L29%2047%20L29%2047%20C30%2048%2c%2031%2048%2c%2032%2048%20C33%2048%2c%2034%2048%2c%2035%2047%20L51%2031%20L51%2031%20C51%2030%2c%2052%2029%2c%2052%2028%20C52%2027%2c%2051%2026%2c%2051%2026%20C50%2025%2c%2049%2024%2c%2048%2024%20C47%2024%2c%2046%2025%2c%2045%2026%20L36%2035%20L36%2035%20L36%204Z%20%20M8%2044%20C5%2044%2c%204%2045%2c%202%2047%20L2%2047%20L2%2047%20C1%2048%2c%200%2050%2c%200%2052%20L0%2056%20L0%2056%20C0%2059%2c%201%2061%2c%202%2062%20C4%2063%2c%205%2064%2c%208%2064%20L56%2064%20L56%2064%20C58%2064%2c%2060%2063%2c%2061%2062%20C63%2061%2c%2064%2059%2c%2064%2056%20L64%2052%20L64%2052%20C64%2050%2c%2063%2048%2c%2061%2047%20C60%2045%2c%2058%2044%2c%2056%2044%20L43%2044%20L43%2044%20L37%2050%20L37%2050%20C36%2052%2c%2034%2052%2c%2032%2052%20C29%2052%2c%2028%2052%2c%2026%2050%20L20%2044%20L20%2044%20L8%2044Z%20%20M54%2051%20C55%2052%2c%2056%2053%2c%2057%2054%20C56%2056%2c%2055%2057%2c%2054%2057%20C52%2057%2c%2051%2056%2c%2051%2054%20C51%2053%2c%2052%2052%2c%2054%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+   display: inline-block;
+   overflow: visible;
+   position: absolute;
+   left: 10px;
+   margin: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 16px;
+   height: 16px;
+}
+#ThemeableButton1:hover .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2064%2064%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M36%204%20C36%203%2c%2035%202%2c%2035%202%20L35%202%20L35%202%20C34%201%2c%2033%200%2c%2032%200%20C30%200%2c%2030%201%2c%2029%202%20C28%202%2c%2028%203%2c%2028%204%20L28%2035%20L28%2035%20L19%2026%20L19%2026%20C18%2025%2c%2017%2024%2c%2016%2024%20C15%2024%2c%2014%2025%2c%2013%2026%20C12%2026%2c%2012%2027%2c%2012%2028%20C12%2029%2c%2012%2030%2c%2013%2031%20L29%2047%20L29%2047%20C30%2048%2c%2031%2048%2c%2032%2048%20C33%2048%2c%2034%2048%2c%2035%2047%20L51%2031%20L51%2031%20C51%2030%2c%2052%2029%2c%2052%2028%20C52%2027%2c%2051%2026%2c%2051%2026%20C50%2025%2c%2049%2024%2c%2048%2024%20C47%2024%2c%2046%2025%2c%2045%2026%20L36%2035%20L36%2035%20L36%204Z%20%20M8%2044%20C5%2044%2c%204%2045%2c%202%2047%20L2%2047%20L2%2047%20C1%2048%2c%200%2050%2c%200%2052%20L0%2056%20L0%2056%20C0%2059%2c%201%2061%2c%202%2062%20C4%2063%2c%205%2064%2c%208%2064%20L56%2064%20L56%2064%20C58%2064%2c%2060%2063%2c%2061%2062%20C63%2061%2c%2064%2059%2c%2064%2056%20L64%2052%20L64%2052%20C64%2050%2c%2063%2048%2c%2061%2047%20C60%2045%2c%2058%2044%2c%2056%2044%20L43%2044%20L43%2044%20L37%2050%20L37%2050%20C36%2052%2c%2034%2052%2c%2032%2052%20C29%2052%2c%2028%2052%2c%2026%2050%20L20%2044%20L20%2044%20L8%2044Z%20%20M54%2051%20C55%2052%2c%2056%2053%2c%2057%2054%20C56%2056%2c%2055%2057%2c%2054%2057%20C52%2057%2c%2051%2056%2c%2051%2054%20C51%2053%2c%2052%2052%2c%2054%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton1:active .ui-primary
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23FFFFFF%22%20viewBox%3d%220%200%2064%2064%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M36%204%20C36%203%2c%2035%202%2c%2035%202%20L35%202%20L35%202%20C34%201%2c%2033%200%2c%2032%200%20C30%200%2c%2030%201%2c%2029%202%20C28%202%2c%2028%203%2c%2028%204%20L28%2035%20L28%2035%20L19%2026%20L19%2026%20C18%2025%2c%2017%2024%2c%2016%2024%20C15%2024%2c%2014%2025%2c%2013%2026%20C12%2026%2c%2012%2027%2c%2012%2028%20C12%2029%2c%2012%2030%2c%2013%2031%20L29%2047%20L29%2047%20C30%2048%2c%2031%2048%2c%2032%2048%20C33%2048%2c%2034%2048%2c%2035%2047%20L51%2031%20L51%2031%20C51%2030%2c%2052%2029%2c%2052%2028%20C52%2027%2c%2051%2026%2c%2051%2026%20C50%2025%2c%2049%2024%2c%2048%2024%20C47%2024%2c%2046%2025%2c%2045%2026%20L36%2035%20L36%2035%20L36%204Z%20%20M8%2044%20C5%2044%2c%204%2045%2c%202%2047%20L2%2047%20L2%2047%20C1%2048%2c%200%2050%2c%200%2052%20L0%2056%20L0%2056%20C0%2059%2c%201%2061%2c%202%2062%20C4%2063%2c%205%2064%2c%208%2064%20L56%2064%20L56%2064%20C58%2064%2c%2060%2063%2c%2061%2062%20C63%2061%2c%2064%2059%2c%2064%2056%20L64%2052%20L64%2052%20C64%2050%2c%2063%2048%2c%2061%2047%20C60%2045%2c%2058%2044%2c%2056%2044%20L43%2044%20L43%2044%20L37%2050%20L37%2050%20C36%2052%2c%2034%2052%2c%2032%2052%20C29%2052%2c%2028%2052%2c%2026%2050%20L20%2044%20L20%2044%20L8%2044Z%20%20M54%2051%20C55%2052%2c%2056%2053%2c%2057%2054%20C56%2056%2c%2055%2057%2c%2054%2057%20C52%2057%2c%2051%2056%2c%2051%2054%20C51%2053%2c%2052%2052%2c%2054%2051%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+}
+#ThemeableButton1.ui-button
+{
+   background-color: #0D6EFD;
+   background-image: none;
+   border: 1px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #0B5ED7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-button:disabled
+{
+   opacity: .5;
+   pointer-events: none;
+}
+#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #0A58CA;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#HorizontalLine2
+{
+   border-color: #696969;
+   border-style: solid;
+   border-bottom-width: 2px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#Button1
+{
+   border: 0px solid #000000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #0D6EFD;
+   cursor: pointer;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: left;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button1:focus
+{
+   outline: 0;
+}
+#Button2
+{
+   border: 1px solid #0D6EFD;
+   border-radius: 100px;
+   background-color: transparent;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button2:focus
+{
+   outline: 0;
+}
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_Icon1 a
+{
+   text-decoration: none;
+}
+#wb_Icon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#Icon1
+{
+   height: 20px;
+   width: 23px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+.Icon1
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   line-height: 1;
+}
+.Icon1:before
+{
+   content: "\e5cd";
+}
+#Icon1 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 20px;
+   line-height: 20px;
+   vertical-align: middle;
+}
+#wb_Icon1:hover #Icon1 i
+{
+   color: #0D6EFD;
+}
+        .details-container {
+            font-family: Aeonik, sans-serif;
+            padding: 20px;
+            height: 600px;
+            width: 390px;
+            background-color: #ffffff;
+        }
+        .details-item { 
+            margin-top: 30px;
+            
+
+        }
+        .details-item span {
+            font-weight: bold;
+
+        }
+        .details-item .value {
+           font-weight: normal;
+           position: absolute; /* Align the params.get values to the right */
+           right: 40px; /* Ensures the values move to the far right */
+        }
+    
