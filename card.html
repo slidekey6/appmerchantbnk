@@ -10,21 +10,41 @@
 <script src="jquery-3.7.1.min.js"></script>
 <script src="wwb20.min.js"></script>
 <script>
-$(document).ready(function()
-{
-   $("#FlipSwitch1").change(function()
-   {
-      if ($('#FlipSwitch1').is(':checked'))
-      {
+$(document).ready(function() {
+   const switchKey = "FlipSwitch1State";
+
+   // Load the saved state from localStorage
+   const savedState = localStorage.getItem(switchKey);
+   if (savedState === "checked") {
+      $('#FlipSwitch1').prop('checked', true);
+      ShowObject('Active', 0);
+      ShowObject('Freeze', 0);
+      ShowObject('Frozen', 1);
+      ShowObject('Unfreeze', 1);
+      $('#add_money').prop('disabled', true);
+      $('#withdraw').prop('disabled', true);
+   } else {
+      $('#FlipSwitch1').prop('checked', false);
+      ShowObject('Frozen', 0);
+      ShowObject('Unfreeze', 0);
+      ShowObject('Active', 1);
+      ShowObject('Freeze', 1);
+      $('#add_money').prop('disabled', false);
+      $('#withdraw').prop('disabled', false);
+   }
+
+   // Save the state when the switch is toggled
+   $("#FlipSwitch1").change(function() {
+      if ($('#FlipSwitch1').is(':checked')) {
+         localStorage.setItem(switchKey, "checked");
          ShowObject('Active', 0);
          ShowObject('Freeze', 0);
          ShowObject('Frozen', 1);
          ShowObject('Unfreeze', 1);
          $('#add_money').prop('disabled', true);
          $('#withdraw').prop('disabled', true);
-      }
-      if (!$('#FlipSwitch1').is(':checked'))
-      {
+      } else {
+         localStorage.setItem(switchKey, "unchecked");
          ShowObject('Frozen', 0);
          ShowObject('Unfreeze', 0);
          ShowObject('Active', 1);
@@ -33,6 +53,8 @@ $(document).ready(function()
          $('#withdraw').prop('disabled', false);
       }
    });
+
+   // Trigger the change event to apply the initial state
    $("#FlipSwitch1").trigger('change');
 });
 </script>
