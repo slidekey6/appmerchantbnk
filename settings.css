@@ -42,7 +42,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(33%) sepia(94%) saturate(4049%) hue-rotate(211deg) brightness(102%) contrast(103%);
+   --colorize: invert(29%) sepia(92%) saturate(1850%) hue-rotate(207deg) brightness(95%) contrast(109%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -104,7 +104,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(48%) sepia(78%) saturate(6749%) hue-rotate(209deg) brightness(100%) contrast(98%);
+   --colorize: invert(28%) sepia(94%) saturate(3003%) hue-rotate(211deg) brightness(101%) contrast(99%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -166,7 +166,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(33%) sepia(63%) saturate(4419%) hue-rotate(208deg) brightness(99%) contrast(102%);
+   --colorize: invert(39%) sepia(83%) saturate(4637%) hue-rotate(208deg) brightness(96%) contrast(106%);
 }
 .ui-state-default
 {
@@ -228,7 +228,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(33%) sepia(72%) saturate(4636%) hue-rotate(209deg) brightness(100%) contrast(99%);
+   --colorize: invert(30%) sepia(36%) saturate(5682%) hue-rotate(210deg) brightness(101%) contrast(102%);
 }
 .darktheme .ui-state-default, .darktheme .wb-theme-static
 {
@@ -633,24 +633,18 @@ body
 {
    text-align: left;
 }
-#Layer11
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border-radius: 10px;
-}
-#Tab
-{
-   background-color: #FFFFFF;
-   background-image: none;
-   border-radius: 15px;
-}
 #wb_Form5
 {
    background-color: #D3D3D3;
    background-image: none;
    border: 0px solid #CCCCCC;
-   border-radius: 15px;
+   border-radius: 10px;
+}
+#Layer11
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 10px;
 }
 #ThemeableButton7
 {
@@ -1459,6 +1453,12 @@ body
 #wb_Text22 div
 {
    text-align: left;
+}
+#Tab
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 15px;
 }
 #wb_Form2
 {

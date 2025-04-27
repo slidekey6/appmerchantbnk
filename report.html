@@ -31,6 +31,26 @@
     })(document, window, 'Chatra');
 </script>
 <!-- /Chatra {/literal} -->
+
+<script>
+        let timeout;
+
+        // Function to reset the timer
+        function resetTimer() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                window.location.href = "index.html"; // Redirects to an expiration page
+            }, 5 * 60 * 1000); // 5 minutes in milliseconds
+        }
+
+        // Add event listeners for activity
+        window.onload = resetTimer;
+        document.onmousemove = resetTimer;
+        document.onkeydown = resetTimer;
+        document.onclick = resetTimer;
+        document.onscroll = resetTimer;
+    </script>
+
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
@@ -40,11 +60,11 @@
 <div id="wb_Text6" style="position:absolute;left:13px;top:8px;width:142px;height:14px;z-index:48;">
 <span style="color:#000000;font-family:Arial;font-size:12px;">Bills, Airtime &amp; Gift Cards</span></div>
 <div id="Layer13" style="position:absolute;overflow:auto;text-align:left;left:13px;top:22px;width:349px;height:146px;z-index:49;">
-<div id="Layer10" style="position:absolute;text-align:left;left:207px;top:9px;width:198px;height:124px;z-index:39;" onclick="alert(''Coming Soon');return false;">
+<div id="Layer10" style="position:absolute;text-align:left;left:207px;top:9px;width:198px;height:124px;z-index:39;" onclick="alert('Coming Soon');return false;">
 <div id="wb_Text11" style="position:absolute;left:7px;top:48px;width:134px;height:14px;z-index:36;">
 <span style="color:#000000;font-family:Arial;font-size:12px;"><strong>Statement of account</strong></span></div>
 </div>
-<div id="Layer12" style="position:absolute;text-align:left;left:415px;top:9px;width:198px;height:124px;z-index:40;" onclick="alert(''Coming Soon');return false;">
+<div id="Layer12" style="position:absolute;text-align:left;left:415px;top:9px;width:198px;height:124px;z-index:40;" onclick="alert('Coming Soon');return false;">
 <div id="wb_Text13" style="position:absolute;left:7px;top:48px;width:103px;height:14px;z-index:37;">
 <span style="color:#000000;font-family:Arial;font-size:12px;"><strong>Expense Insight</strong></span></div>
 </div>

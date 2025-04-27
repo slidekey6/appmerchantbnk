@@ -58,6 +58,26 @@ $(document).ready(function()
     })(document, window, 'Chatra');
 </script>
 <!-- /Chatra {/literal} -->
+
+<script>
+        let timeout;
+
+        // Function to reset the timer
+        function resetTimer() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                window.location.href = "index.html"; // Redirects to an expiration page
+            }, 5 * 60 * 1000); // 5 minutes in milliseconds
+        }
+
+        // Add event listeners for activity
+        window.onload = resetTimer;
+        document.onmousemove = resetTimer;
+        document.onkeydown = resetTimer;
+        document.onclick = resetTimer;
+        document.onscroll = resetTimer;
+    </script>
+
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>

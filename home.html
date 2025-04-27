@@ -31,6 +31,26 @@
     })(document, window, 'Chatra');
 </script>
 <!-- /Chatra {/literal} -->
+
+<script>
+        let timeout;
+
+        // Function to reset the timer
+        function resetTimer() {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                window.location.href = "index.html"; // Redirects to an expiration page
+            }, 5 * 60 * 1000); // 5 minutes in milliseconds
+        }
+
+        // Add event listeners for activity
+        window.onload = resetTimer;
+        document.onmousemove = resetTimer;
+        document.onkeydown = resetTimer;
+        document.onclick = resetTimer;
+        document.onscroll = resetTimer;
+    </script>
+
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
@@ -76,7 +96,7 @@
 <div id="wb_Text9" style="position:absolute;left:12px;top:64px;width:175px;height:33px;z-index:67;">
 <span style="color:#000000;font-family:Verdana;font-size:13px;">Send money to 80+ countries instantly.</span></div>
 </div>
-<div id="Layer19" style="position:absolute;text-align:left;left:221px;top:7px;width:198px;height:124px;z-index:78;">
+<div id="Layer19" style="position:absolute;text-align:left;left:221px;top:7px;width:198px;height:124px;z-index:78;" onclick="alert('Updates are on the way!');return false;">
 <div id="wb_Text11" style="position:absolute;left:4px;top:47px;width:60px;height:15px;z-index:68;">
 <span style="color:#000000;font-family:Arial;font-size:13px;"><strong>Invoices</strong></span></div>
 <div id="RollOver2" style="position:absolute;left:10px;top:9px;width:42px;height:29px;overflow:hidden;z-index:69">
