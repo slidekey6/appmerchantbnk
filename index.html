@@ -9,7 +9,7 @@
 
 <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1743558022/favicon_ewpfvq.ico">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
  <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); </script>
 
@@ -27,20 +27,9 @@
     })(document, window, 'Chatra');
 
 
-          // Set expiration logic
-        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
-        const pageLoadTime = new Date().getTime();
+         
 
   function validateInput() {
-
-         const currentTime = new Date().getTime();
-            const elapsedTime = currentTime - pageLoadTime;
-
-            if (elapsedTime > expirationTime) {
-                alert("This login page has expired. Please reload.");
-                return;
-            }
-
 
             const input = document.getElementById("MerchantId").value;
             if (input === "MARWAN_EL_0217") {
